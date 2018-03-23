@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0784205D523363360758AF96 /* Pods_PhoneroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FDE1E6D5FADEBACDB8C25D /* Pods_PhoneroUITests.framework */; };
+		1E937A672611AD6C4039B385 /* Pods_PhoneroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2A90776DA5BDD3AF542C2E /* Pods_PhoneroTests.framework */; };
+		568F9D1833F8B4FDFA5F6864 /* Pods_Phonero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558DE464414A223434A7E3DC /* Pods_Phonero.framework */; };
+		C5A8C09A2064587600B87447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0992064587600B87447 /* AppDelegate.swift */; };
+		C5A8C09C2064587600B87447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C09B2064587600B87447 /* ViewController.swift */; };
+		C5A8C09F2064587600B87447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A8C09D2064587600B87447 /* Main.storyboard */; };
+		C5A8C0A12064587600B87447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A8C0A02064587600B87447 /* Assets.xcassets */; };
+		C5A8C0A42064587600B87447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A8C0A22064587600B87447 /* LaunchScreen.storyboard */; };
+		C5A8C0AF2064587600B87447 /* PhoneroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0AE2064587600B87447 /* PhoneroTests.swift */; };
+		C5A8C0BA2064587600B87447 /* PhoneroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0B92064587600B87447 /* PhoneroUITests.swift */; };
+		C5A8C0C82064588300B87447 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0C72064588300B87447 /* Backend.swift */; };
+		C5A8C0CB206458E000B87447 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0CA206458E000B87447 /* Router.swift */; };
+		C5A8C0CD2064590100B87447 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0CC2064590100B87447 /* Request.swift */; };
+		C5A8C0CF20645A9000B87447 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0CE20645A9000B87447 /* NetworkService.swift */; };
+		C5A8C0D120645AE900B87447 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D020645AE900B87447 /* RequestBuilder.swift */; };
+		C5A8C0D320645B4600B87447 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D220645B4600B87447 /* Logger.swift */; };
+		C5A8C0D520645BA000B87447 /* JSONDecoderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D420645BA000B87447 /* JSONDecoderHelper.swift */; };
+		C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D820645D9D00B87447 /* JSONService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A8C0AB2064587600B87447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A8C08E2064587600B87447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A8C0952064587600B87447;
+			remoteInfo = Phonero;
+		};
+		C5A8C0B62064587600B87447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A8C08E2064587600B87447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A8C0952064587600B87447;
+			remoteInfo = Phonero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19FDE1E6D5FADEBACDB8C25D /* Pods_PhoneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558DE464414A223434A7E3DC /* Pods_Phonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phonero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		586D5B77CE7B0AEEFB063692 /* Pods-PhoneroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroUITests/Pods-PhoneroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E952AFBE18D031DB7111ED1 /* Pods-PhoneroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests.release.xcconfig"; sourceTree = "<group>"; };
+		8638480667E0098C7EBFA9BE /* Pods-Phonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phonero/Pods-Phonero.debug.xcconfig"; sourceTree = "<group>"; };
+		A335604FB9BFDE76CF5ED22D /* Pods-PhoneroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroUITests/Pods-PhoneroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB2A90776DA5BDD3AF542C2E /* Pods_PhoneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A8C0962064587600B87447 /* Phonero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A8C0992064587600B87447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5A8C09B2064587600B87447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5A8C09E2064587600B87447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5A8C0A02064587600B87447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A8C0A32064587600B87447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5A8C0A52064587600B87447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A8C0AA2064587600B87447 /* PhoneroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A8C0AE2064587600B87447 /* PhoneroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneroTests.swift; sourceTree = "<group>"; };
+		C5A8C0B02064587600B87447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A8C0B52064587600B87447 /* PhoneroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A8C0B92064587600B87447 /* PhoneroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneroUITests.swift; sourceTree = "<group>"; };
+		C5A8C0BB2064587600B87447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A8C0C72064588300B87447 /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		C5A8C0CA206458E000B87447 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C5A8C0CC2064590100B87447 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C5A8C0CE20645A9000B87447 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C5A8C0D020645AE900B87447 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		C5A8C0D220645B4600B87447 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		C5A8C0D420645BA000B87447 /* JSONDecoderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderHelper.swift; sourceTree = "<group>"; };
+		C5A8C0D820645D9D00B87447 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
+		DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phonero/Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
+		F6AC5BEB8D335AB565EBE31C /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A8C0932064587600B87447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F9D1833F8B4FDFA5F6864 /* Pods_Phonero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A8C0A72064587600B87447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E937A672611AD6C4039B385 /* Pods_PhoneroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A8C0B22064587600B87447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784205D523363360758AF96 /* Pods_PhoneroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0743A7A0B982F4E73432E914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8638480667E0098C7EBFA9BE /* Pods-Phonero.debug.xcconfig */,
+				DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */,
+				F6AC5BEB8D335AB565EBE31C /* Pods-PhoneroTests.debug.xcconfig */,
+				5E952AFBE18D031DB7111ED1 /* Pods-PhoneroTests.release.xcconfig */,
+				586D5B77CE7B0AEEFB063692 /* Pods-PhoneroUITests.debug.xcconfig */,
+				A335604FB9BFDE76CF5ED22D /* Pods-PhoneroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBC53BE85CC2798C3B63814A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558DE464414A223434A7E3DC /* Pods_Phonero.framework */,
+				BB2A90776DA5BDD3AF542C2E /* Pods_PhoneroTests.framework */,
+				19FDE1E6D5FADEBACDB8C25D /* Pods_PhoneroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A8C08D2064587600B87447 = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0982064587600B87447 /* Phonero */,
+				C5A8C0AD2064587600B87447 /* PhoneroTests */,
+				C5A8C0B82064587600B87447 /* PhoneroUITests */,
+				C5A8C0972064587600B87447 /* Products */,
+				0743A7A0B982F4E73432E914 /* Pods */,
+				BBC53BE85CC2798C3B63814A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A8C0972064587600B87447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0962064587600B87447 /* Phonero.app */,
+				C5A8C0AA2064587600B87447 /* PhoneroTests.xctest */,
+				C5A8C0B52064587600B87447 /* PhoneroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A8C0982064587600B87447 /* Phonero */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C09D2064587600B87447 /* Main.storyboard */,
+				C5A8C09B2064587600B87447 /* ViewController.swift */,
+				C5A8C0C72064588300B87447 /* Backend.swift */,
+				C5A8C0C9206458D800B87447 /* Networking */,
+				C5A8C0992064587600B87447 /* AppDelegate.swift */,
+				C5A8C0A02064587600B87447 /* Assets.xcassets */,
+				C5A8C0A22064587600B87447 /* LaunchScreen.storyboard */,
+				C5A8C0A52064587600B87447 /* Info.plist */,
+			);
+			path = Phonero;
+			sourceTree = "<group>";
+		};
+		C5A8C0AD2064587600B87447 /* PhoneroTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0AE2064587600B87447 /* PhoneroTests.swift */,
+				C5A8C0B02064587600B87447 /* Info.plist */,
+			);
+			path = PhoneroTests;
+			sourceTree = "<group>";
+		};
+		C5A8C0B82064587600B87447 /* PhoneroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0B92064587600B87447 /* PhoneroUITests.swift */,
+				C5A8C0BB2064587600B87447 /* Info.plist */,
+			);
+			path = PhoneroUITests;
+			sourceTree = "<group>";
+		};
+		C5A8C0C9206458D800B87447 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0CA206458E000B87447 /* Router.swift */,
+				C5A8C0CC2064590100B87447 /* Request.swift */,
+				C5A8C0CE20645A9000B87447 /* NetworkService.swift */,
+				C5A8C0D020645AE900B87447 /* RequestBuilder.swift */,
+				C5A8C0D220645B4600B87447 /* Logger.swift */,
+				C5A8C0D420645BA000B87447 /* JSONDecoderHelper.swift */,
+				C5A8C0D820645D9D00B87447 /* JSONService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A8C0952064587600B87447 /* Phonero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A8C0BE2064587600B87447 /* Build configuration list for PBXNativeTarget "Phonero" */;
+			buildPhases = (
+				E2BA66B75094FC91BE80A241 /* [CP] Check Pods Manifest.lock */,
+				C5A8C0922064587600B87447 /* Sources */,
+				C5A8C0932064587600B87447 /* Frameworks */,
+				C5A8C0942064587600B87447 /* Resources */,
+				004262AB1738AD2630D5CF4D /* [CP] Embed Pods Frameworks */,
+				97F1366F87DA82D542D41CA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phonero;
+			productName = Phonero;
+			productReference = C5A8C0962064587600B87447 /* Phonero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A8C0A92064587600B87447 /* PhoneroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A8C0C12064587600B87447 /* Build configuration list for PBXNativeTarget "PhoneroTests" */;
+			buildPhases = (
+				104E7D9D64D4412A532B4B07 /* [CP] Check Pods Manifest.lock */,
+				C5A8C0A62064587600B87447 /* Sources */,
+				C5A8C0A72064587600B87447 /* Frameworks */,
+				C5A8C0A82064587600B87447 /* Resources */,
+				18B69B22B68BA0FFEAC6A490 /* [CP] Embed Pods Frameworks */,
+				36BF24C285052335DD594870 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A8C0AC2064587600B87447 /* PBXTargetDependency */,
+			);
+			name = PhoneroTests;
+			productName = PhoneroTests;
+			productReference = C5A8C0AA2064587600B87447 /* PhoneroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5A8C0B42064587600B87447 /* PhoneroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A8C0C42064587600B87447 /* Build configuration list for PBXNativeTarget "PhoneroUITests" */;
+			buildPhases = (
+				A7E0B083B4026F1EE54ACC14 /* [CP] Check Pods Manifest.lock */,
+				C5A8C0B12064587600B87447 /* Sources */,
+				C5A8C0B22064587600B87447 /* Frameworks */,
+				C5A8C0B32064587600B87447 /* Resources */,
+				81F8383783309678E1F8138F /* [CP] Embed Pods Frameworks */,
+				29A207FF047D82A82290CCCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A8C0B72064587600B87447 /* PBXTargetDependency */,
+			);
+			name = PhoneroUITests;
+			productName = PhoneroUITests;
+			productReference = C5A8C0B52064587600B87447 /* PhoneroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A8C08E2064587600B87447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Liite;
+				TargetAttributes = {
+					C5A8C0952064587600B87447 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C5A8C0A92064587600B87447 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5A8C0952064587600B87447;
+					};
+					C5A8C0B42064587600B87447 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5A8C0952064587600B87447;
+					};
+				};
+			};
+			buildConfigurationList = C5A8C0912064587600B87447 /* Build configuration list for PBXProject "Phonero" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A8C08D2064587600B87447;
+			productRefGroup = C5A8C0972064587600B87447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A8C0952064587600B87447 /* Phonero */,
+				C5A8C0A92064587600B87447 /* PhoneroTests */,
+				C5A8C0B42064587600B87447 /* PhoneroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A8C0942064587600B87447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8C0A42064587600B87447 /* LaunchScreen.storyboard in Resources */,
+				C5A8C0A12064587600B87447 /* Assets.xcassets in Resources */,
+				C5A8C09F2064587600B87447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A8C0A82064587600B87447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A8C0B32064587600B87447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004262AB1738AD2630D5CF4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Phonero/Pods-Phonero-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phonero/Pods-Phonero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		104E7D9D64D4412A532B4B07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18B69B22B68BA0FFEAC6A490 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29A207FF047D82A82290CCCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneroUITests/Pods-PhoneroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36BF24C285052335DD594870 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F8383783309678E1F8138F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneroUITests/Pods-PhoneroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F1366F87DA82D542D41CA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phonero/Pods-Phonero-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E0B083B4026F1EE54ACC14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BA66B75094FC91BE80A241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phonero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A8C0922064587600B87447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8C0D120645AE900B87447 /* RequestBuilder.swift in Sources */,
+				C5A8C0CB206458E000B87447 /* Router.swift in Sources */,
+				C5A8C09C2064587600B87447 /* ViewController.swift in Sources */,
+				C5A8C0CD2064590100B87447 /* Request.swift in Sources */,
+				C5A8C09A2064587600B87447 /* AppDelegate.swift in Sources */,
+				C5A8C0CF20645A9000B87447 /* NetworkService.swift in Sources */,
+				C5A8C0D520645BA000B87447 /* JSONDecoderHelper.swift in Sources */,
+				C5A8C0C82064588300B87447 /* Backend.swift in Sources */,
+				C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */,
+				C5A8C0D320645B4600B87447 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A8C0A62064587600B87447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8C0AF2064587600B87447 /* PhoneroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A8C0B12064587600B87447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8C0BA2064587600B87447 /* PhoneroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A8C0AC2064587600B87447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A8C0952064587600B87447 /* Phonero */;
+			targetProxy = C5A8C0AB2064587600B87447 /* PBXContainerItemProxy */;
+		};
+		C5A8C0B72064587600B87447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A8C0952064587600B87447 /* Phonero */;
+			targetProxy = C5A8C0B62064587600B87447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5A8C09D2064587600B87447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A8C09E2064587600B87447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5A8C0A22064587600B87447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A8C0A32064587600B87447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A8C0BC2064587600B87447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5A8C0BD2064587600B87447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A8C0BF2064587600B87447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8638480667E0098C7EBFA9BE /* Pods-Phonero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = Phonero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.Phonero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5A8C0C02064587600B87447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = Phonero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.Phonero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5A8C0C22064587600B87447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AC5BEB8D335AB565EBE31C /* Pods-PhoneroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = PhoneroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.PhoneroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phonero.app/Phonero";
+			};
+			name = Debug;
+		};
+		C5A8C0C32064587600B87447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E952AFBE18D031DB7111ED1 /* Pods-PhoneroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = PhoneroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.PhoneroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phonero.app/Phonero";
+			};
+			name = Release;
+		};
+		C5A8C0C52064587600B87447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586D5B77CE7B0AEEFB063692 /* Pods-PhoneroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = PhoneroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.PhoneroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Phonero;
+			};
+			name = Debug;
+		};
+		C5A8C0C62064587600B87447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A335604FB9BFDE76CF5ED22D /* Pods-PhoneroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = PhoneroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.PhoneroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Phonero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A8C0912064587600B87447 /* Build configuration list for PBXProject "Phonero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A8C0BC2064587600B87447 /* Debug */,
+				C5A8C0BD2064587600B87447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A8C0BE2064587600B87447 /* Build configuration list for PBXNativeTarget "Phonero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A8C0BF2064587600B87447 /* Debug */,
+				C5A8C0C02064587600B87447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A8C0C12064587600B87447 /* Build configuration list for PBXNativeTarget "PhoneroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A8C0C22064587600B87447 /* Debug */,
+				C5A8C0C32064587600B87447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A8C0C42064587600B87447 /* Build configuration list for PBXNativeTarget "PhoneroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A8C0C52064587600B87447 /* Debug */,
+				C5A8C0C62064587600B87447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A8C08E2064587600B87447 /* Project object */;
+}

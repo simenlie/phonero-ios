@@ -1,0 +1,6 @@
+framework module Pods_Phonero {
+  umbrella header "Pods-Phonero-umbrella.h"
+
+  export *
+  module * { export * }
+}
