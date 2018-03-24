@@ -16,21 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.usageLabel.text = "Henter data"
-        login()
-    }
-
-    func login() {
-        backend.login(username: "PHONENUMBER",
-                      password: "PASSWORD",
-                      completion: { (result) in
-                        switch result {
-                        case .success(let auth):
-                            Logger.debug("Auth: \(auth)")
-                            self.fetchData()
-                        case .failure(let error):
-                            Logger.debug(error.localizedDescription)
-                        }
-        })
+        fetchData()
     }
 
     func fetchData() {
