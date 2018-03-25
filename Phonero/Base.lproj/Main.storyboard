@@ -39,10 +39,19 @@
                     </view>
                     <connections>
                         <outlet property="usageLabel" destination="JdG-SP-Ik0" id="1OD-wD-Xle"/>
+                        <segue destination="VPO-D0-kTs" kind="show" identifier="ShowLoginSegue" id="s3W-fz-xVN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Login-->
+        <scene sceneID="NXB-d1-Y2j">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="VPO-D0-kTs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agM-hO-vfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="109"/>
         </scene>
     </scenes>
 </document>

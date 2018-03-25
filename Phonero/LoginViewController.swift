@@ -11,6 +11,7 @@ import UIKit
 class LoginViewController: UIViewController {
 
     let backend = Backend()
+    let authentication = ServiceFactory().authentication
 
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -37,7 +38,8 @@ class LoginViewController: UIViewController {
                         switch result {
                         case .success(let auth):
                             Logger.debug("Auth: \(auth)")
-                            self.performSegue(withIdentifier: "segueToMain", sender: self)
+                            self.authentication.store(credentials: UserCredentials(username: username, password: password))
+                            self.performSegue(withIdentifier: "UnwindSegue", sender: self)
                         case .failure(let error):
                             Logger.debug(error.localizedDescription)
                             let alert = UIAlertController(title: "Login feilet", message: nil, preferredStyle: UIAlertControllerStyle.alert)

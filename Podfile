@@ -6,6 +6,7 @@ target 'Phonero' do
   use_frameworks!
 
   # Pods for Phonero
+pod 'KeychainAccess'
 pod 'SwiftHash'
   target 'PhoneroTests' do
     inherit! :search_paths

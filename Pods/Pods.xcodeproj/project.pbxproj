@@ -7,80 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E342342E7D6CE5016F249F0A4D8336B /* SwiftHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B32B001BE46D4054CE44917DFF8B74D /* SwiftHash-dummy.m */; };
+		009A3CE0EBB556F979D5276BCF036710 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8205199289B1E47896F15339215D7 /* MD5.swift */; };
+		115E7EB9C01621533932551C5CE7F086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2D5FCE1C189A19D9A60ECBC43635C2C4 /* Pods-PhoneroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B575BA1627986A6E8DD65FD360994D80 /* Pods-PhoneroUITests-dummy.m */; };
-		38F449CB0898042D9A4BE0774EB528DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		402ECB13344814CD294C5B78A4EBEE00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4CF7147D09A311209AF15C188769EAE0 /* Pods-Phonero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AD7C97FD40211A5E58D1B23E3FE9B /* Pods-Phonero-dummy.m */; };
+		305BD67DE34D7ED5BFE15870390BD013 /* Pods-Phonero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AD7C97FD40211A5E58D1B23E3FE9B /* Pods-Phonero-dummy.m */; };
+		654E019C67B0E83362F3C00269BF74FA /* SwiftHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D518D926C97860B773ABC6EEA927433E /* SwiftHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7956E9BE1F9FFF3D0D75AF6ED1A1891C /* Pods-PhoneroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 770A147347D8550BB226FD01EA1EA6D8 /* Pods-PhoneroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB38DE5A56F794E619822DBDD585CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8FA62B4815D8F8E52BFFD4615B3E7861 /* Pods-Phonero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A042980C798DCE2EFFBAEA3A08C23636 /* Pods-Phonero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9524E12B97DB0CB02C6C732BCC541BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AEEEA69AE83A8F6285878F922862C943 /* Pods-Phonero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A042980C798DCE2EFFBAEA3A08C23636 /* Pods-Phonero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD0657C302660E408A48D2757CE7E37C /* SwiftHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65930DF4A243899ADFD8F7835C9DB31A /* SwiftHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A371F2B94092278C8E26397BCBF51E3F /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C3F40F70BE36F0558A95D54B2393D /* SHA1.swift */; };
+		A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E431168FB58176BFC7894911CFBCE2 /* Keychain.swift */; };
+		BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47C6DAF86289E1C3DB6E517429A04E4 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C456AEBA7FACA838B8EF6CE4F7029C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D4CEDD6DCA882484C22D1370C075B17C /* Pods-PhoneroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B53907711389EE9C0DF7E116A9290 /* Pods-PhoneroTests-dummy.m */; };
-		D851FF05DD2424B9B36594881C37F01D /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346D1E0C557BFAF00270699D2EAC31F /* MD5.swift */; };
-		EEE62D4EDC9DDD705B137B45A189CF38 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F933AF1653187208104ED68B6B1E5A8F /* SHA1.swift */; };
+		D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBFA15C5CF1B2602295FF8F750DCB44 /* KeychainAccess-dummy.m */; };
+		EFA6675F44E34E33CB4A5CD2623D964A /* SwiftHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CC8CA795B26A6C57F0E1131567059 /* SwiftHash-dummy.m */; };
 		F4C695406C9FCB8150A33D07B0B15509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FE8F977665277991131FECA98E90C8E2 /* Pods-PhoneroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FB50F1AF5FDD36468F8793158EDB5C /* Pods-PhoneroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6F098B2979A130C20BDF79118A8F1CE /* PBXContainerItemProxy */ = {
+		8FCE454BABDAA504EFA1D7D56C61C011 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3094E47BD5251B86F3463F7ECBBC838;
+			remoteGlobalIDString = 4C28ED1D6A37CC91FEE14BC46B339A5A;
 			remoteInfo = SwiftHash;
+		};
+		D488EFE4758E754D486E7739A114FAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8905DB6521F8FDC34752B69DEE3FDEB7;
+			remoteInfo = KeychainAccess;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020E17C373FE25FF23FECA34328FDBE2 /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftHash.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B47204B29845347B9107A8B7B756483 /* Pods-PhoneroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroUITests-resources.sh"; sourceTree = "<group>"; };
 		0B690F2D3078EB3311AD82C74CF71B1C /* Pods-Phonero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Phonero.modulemap"; sourceTree = "<group>"; };
-		0C001DA8EEB71E2E441018D780CA4E82 /* Pods_Phonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phonero.framework; path = "Pods-Phonero.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E2DC8220405B5B834644954791DB9E7 /* SwiftHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftHash.modulemap; sourceTree = "<group>"; };
-		2346D1E0C557BFAF00270699D2EAC31F /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/MD5.swift; sourceTree = "<group>"; };
+		0C8EDBF3474A2B960F1CE2734F59E113 /* Pods_PhoneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroUITests.framework; path = "Pods-PhoneroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2D2F5B5F36F24859D8761D2CAE1FC /* Pods-PhoneroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroTests.release.xcconfig"; sourceTree = "<group>"; };
 		2EE0145C836AAFC2D3357A5E750EFA82 /* Pods-PhoneroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroTests-resources.sh"; sourceTree = "<group>"; };
 		34FB50F1AF5FDD36468F8793158EDB5C /* Pods-PhoneroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneroTests-umbrella.h"; sourceTree = "<group>"; };
+		36A8205199289B1E47896F15339215D7 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/MD5.swift; sourceTree = "<group>"; };
 		381D23AA5B95970319D58F3F62370338 /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
 		392D87E2C9D13D5754F46F1E4EB3F903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7C3F40F70BE36F0558A95D54B2393D /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
 		4037DF09F2A987590BC5A4B28CC7C828 /* Pods-PhoneroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroUITests.release.xcconfig"; sourceTree = "<group>"; };
-		441530B4F2E9A7B68F4FEE099678D313 /* Pods_PhoneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroTests.framework; path = "Pods-PhoneroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49385DB5594F3FCF345591919683C051 /* SwiftHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHash-prefix.pch"; sourceTree = "<group>"; };
+		4B6CC8CA795B26A6C57F0E1131567059 /* SwiftHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHash-dummy.m"; sourceTree = "<group>"; };
 		6009DC996776017725F5F2995A8EA557 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
-		65930DF4A243899ADFD8F7835C9DB31A /* SwiftHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHash-umbrella.h"; sourceTree = "<group>"; };
+		65E431168FB58176BFC7894911CFBCE2 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A2E61006C217641D177665DF135251B /* Pods-PhoneroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroUITests-frameworks.sh"; sourceTree = "<group>"; };
-		6B32B001BE46D4054CE44917DFF8B74D /* SwiftHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHash-dummy.m"; sourceTree = "<group>"; };
-		6C6A7681EA697FE9581A206A2DFAF350 /* Pods_PhoneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroUITests.framework; path = "Pods-PhoneroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		770A147347D8550BB226FD01EA1EA6D8 /* Pods-PhoneroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneroUITests-umbrella.h"; sourceTree = "<group>"; };
 		774269740ED68F84051A8B45F7B24E46 /* Pods-PhoneroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneroTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7972D558ADE3E54115FE6697CDD4A2C1 /* Pods-PhoneroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroTests-frameworks.sh"; sourceTree = "<group>"; };
+		7A4149E88A2D616DFD6078678EA0D8E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF435A509E814E1198DFB56504F2BB0 /* Pods-Phonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonero.debug.xcconfig"; sourceTree = "<group>"; };
+		8DA8790D695C857F7596D3B850AA0AF5 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
 		8E5A72C8EA38E5E45F4C5F48CA443240 /* Pods-Phonero-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonero-resources.sh"; sourceTree = "<group>"; };
+		932656C6D54E67DCF03BD2DEC28785AE /* Pods_PhoneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroTests.framework; path = "Pods-PhoneroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B340F6366CF0F9687C3D675D888A2A3 /* SwiftHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHash.xcconfig; sourceTree = "<group>"; };
 		9DD669639B227D2AC88339D1969D324B /* Pods-Phonero-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phonero-acknowledgements.plist"; sourceTree = "<group>"; };
 		A042980C798DCE2EFFBAEA3A08C23636 /* Pods-Phonero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phonero-umbrella.h"; sourceTree = "<group>"; };
 		A493E89B0CCD8F3E30931CE741D042C4 /* Pods-PhoneroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A513930B6D1697BC96D3B75AFD932321 /* Pods_Phonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phonero.framework; path = "Pods-Phonero.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A605BFB4CA17233C17BC9B1ED0E9506A /* Pods-Phonero-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phonero-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A85BBC890A45DCEAB8744E5AB2DDFE31 /* Pods-Phonero-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonero-frameworks.sh"; sourceTree = "<group>"; };
 		A94AD7C97FD40211A5E58D1B23E3FE9B /* Pods-Phonero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phonero-dummy.m"; sourceTree = "<group>"; };
 		A9BE4DD69927C9028D11B3C3F7315F21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBFA15C5CF1B2602295FF8F750DCB44 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
 		B575BA1627986A6E8DD65FD360994D80 /* Pods-PhoneroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneroUITests-dummy.m"; sourceTree = "<group>"; };
+		BF9691BAC522E4D7629A011F4A49127E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA7B8E5497C7C132C9105174B3E29A27 /* Pods-PhoneroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneroTests.modulemap"; sourceTree = "<group>"; };
-		D1370B0BA9194EB2C2309C504328BF4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0578C09CC46810F9F68606CFC709113 /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29544F07CAAE82AA58B9A217B7F3F42 /* Pods-PhoneroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D74602BF64753F49C8AE0754B656E0CF /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftHash.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47C6DAF86289E1C3DB6E517429A04E4 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		D518D926C97860B773ABC6EEA927433E /* SwiftHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHash-umbrella.h"; sourceTree = "<group>"; };
+		D933D233AECE929EB0BB046B71F04AD6 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
 		DDC2917096EA56B9A647505D8FC32FA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1555EF4112853B7616C349C670A2DA5 /* Pods-PhoneroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneroUITests.modulemap"; sourceTree = "<group>"; };
 		E19B53907711389EE9C0DF7E116A9290 /* Pods-PhoneroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneroTests-dummy.m"; sourceTree = "<group>"; };
+		E7B1B07596165FC6CD70E47D13C6FE6E /* SwiftHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftHash.modulemap; sourceTree = "<group>"; };
+		E80A6DCAC5985FBD7C49602D3A2A9810 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
 		EA50F227574EDA551250011849E2EC22 /* Pods-PhoneroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3199EC14B09C767C9FDF6FA9C430BB6 /* SwiftHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHash-prefix.pch"; sourceTree = "<group>"; };
-		F933AF1653187208104ED68B6B1E5A8F /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
+		EA7CAF284716AE5E32E776B21D86F6C9 /* SwiftHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHash.xcconfig; sourceTree = "<group>"; };
 		FF46141DDD269003DC0C602BC5FC9F67 /* Pods-PhoneroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2DDC844C06D46A3907C42C9964BC7434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C456AEBA7FACA838B8EF6CE4F7029C3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46E727811CE0ED75BA9D80CB9D8AC19E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,39 +124,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52774B89E647204E889418A1E787A559 /* Frameworks */ = {
+		482E1966EA831CC8D2231DFFD11229D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402ECB13344814CD294C5B78A4EBEE00 /* Foundation.framework in Frameworks */,
+				115E7EB9C01621533932551C5CE7F086 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC3A6E34B2CC04321D174DEE79952D8B /* Frameworks */ = {
+		D028C4D40A38D30DD5B7FD164FD1826D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F449CB0898042D9A4BE0774EB528DF /* Foundation.framework in Frameworks */,
+				7AB38DE5A56F794E619822DBDD585CE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B8B52FF5754D7D48DC93319780103AE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D1370B0BA9194EB2C2309C504328BF4C /* Info.plist */,
-				0E2DC8220405B5B834644954791DB9E7 /* SwiftHash.modulemap */,
-				9B340F6366CF0F9687C3D675D888A2A3 /* SwiftHash.xcconfig */,
-				6B32B001BE46D4054CE44917DFF8B74D /* SwiftHash-dummy.m */,
-				F3199EC14B09C767C9FDF6FA9C430BB6 /* SwiftHash-prefix.pch */,
-				65930DF4A243899ADFD8F7835C9DB31A /* SwiftHash-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftHash";
-			sourceTree = "<group>";
-		};
 		0BEDADD3E3B1FF588DD8C4502552B4F7 /* Pods-PhoneroTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,15 +161,52 @@
 			path = "Target Support Files/Pods-PhoneroTests";
 			sourceTree = "<group>";
 		};
+		11380A2FFDA6FA6BF307A6B207C48BC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4149E88A2D616DFD6078678EA0D8E8 /* Info.plist */,
+				E7B1B07596165FC6CD70E47D13C6FE6E /* SwiftHash.modulemap */,
+				EA7CAF284716AE5E32E776B21D86F6C9 /* SwiftHash.xcconfig */,
+				4B6CC8CA795B26A6C57F0E1131567059 /* SwiftHash-dummy.m */,
+				49385DB5594F3FCF345591919683C051 /* SwiftHash-prefix.pch */,
+				D518D926C97860B773ABC6EEA927433E /* SwiftHash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHash";
+			sourceTree = "<group>";
+		};
+		405F493BF80310AC0F3A5168DE8C007D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE28DD83615C4EC4AC66C7F48D01CF0B /* KeychainAccess */,
+				C5664B0C4E790D9E1965B274AF0B0F56 /* SwiftHash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D09D7C36A2DD95177F6AF19650733D8C /* Pods */,
-				9596105F481EF9F7111B58A333954165 /* Products */,
+				405F493BF80310AC0F3A5168DE8C007D /* Pods */,
+				AB2500880AAFA850247C2F6A1EF4008F /* Products */,
 				C1CDAB2C45E34B70D49187BE8A0961A6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		821DE18DAB6A41CE70D83234FF5A1596 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9691BAC522E4D7629A011F4A49127E /* Info.plist */,
+				E80A6DCAC5985FBD7C49602D3A2A9810 /* KeychainAccess.modulemap */,
+				D933D233AECE929EB0BB046B71F04AD6 /* KeychainAccess.xcconfig */,
+				AFBFA15C5CF1B2602295FF8F750DCB44 /* KeychainAccess-dummy.m */,
+				8DA8790D695C857F7596D3B850AA0AF5 /* KeychainAccess-prefix.pch */,
+				D47C6DAF86289E1C3DB6E517429A04E4 /* KeychainAccess-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
 		85505C71D488771BA5768CA5C0A1352F /* Pods-Phonero */ = {
@@ -177,13 +227,14 @@
 			path = "Target Support Files/Pods-Phonero";
 			sourceTree = "<group>";
 		};
-		9596105F481EF9F7111B58A333954165 /* Products */ = {
+		AB2500880AAFA850247C2F6A1EF4008F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C001DA8EEB71E2E441018D780CA4E82 /* Pods_Phonero.framework */,
-				441530B4F2E9A7B68F4FEE099678D313 /* Pods_PhoneroTests.framework */,
-				6C6A7681EA697FE9581A206A2DFAF350 /* Pods_PhoneroUITests.framework */,
-				D74602BF64753F49C8AE0754B656E0CF /* SwiftHash.framework */,
+				D0578C09CC46810F9F68606CFC709113 /* KeychainAccess.framework */,
+				A513930B6D1697BC96D3B75AFD932321 /* Pods_Phonero.framework */,
+				932656C6D54E67DCF03BD2DEC28785AE /* Pods_PhoneroTests.framework */,
+				0C8EDBF3474A2B960F1CE2734F59E113 /* Pods_PhoneroUITests.framework */,
+				020E17C373FE25FF23FECA34328FDBE2 /* SwiftHash.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,17 +247,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFF79E472A408377162BF77CB73F6CD6 /* SwiftHash */ = {
-			isa = PBXGroup;
-			children = (
-				2346D1E0C557BFAF00270699D2EAC31F /* MD5.swift */,
-				F933AF1653187208104ED68B6B1E5A8F /* SHA1.swift */,
-				0B8B52FF5754D7D48DC93319780103AE /* Support Files */,
-			);
-			name = SwiftHash;
-			path = SwiftHash;
-			sourceTree = "<group>";
-		};
 		C1CDAB2C45E34B70D49187BE8A0961A6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,12 +257,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D09D7C36A2DD95177F6AF19650733D8C /* Pods */ = {
+		C5664B0C4E790D9E1965B274AF0B0F56 /* SwiftHash */ = {
 			isa = PBXGroup;
 			children = (
-				BFF79E472A408377162BF77CB73F6CD6 /* SwiftHash */,
+				36A8205199289B1E47896F15339215D7 /* MD5.swift */,
+				3E7C3F40F70BE36F0558A95D54B2393D /* SHA1.swift */,
+				11380A2FFDA6FA6BF307A6B207C48BC3 /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftHash;
+			path = SwiftHash;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -251,9 +294,35 @@
 			path = "Target Support Files/Pods-PhoneroUITests";
 			sourceTree = "<group>";
 		};
+		FE28DD83615C4EC4AC66C7F48D01CF0B /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				65E431168FB58176BFC7894911CFBCE2 /* Keychain.swift */,
+				821DE18DAB6A41CE70D83234FF5A1596 /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10BFEA9EF784A3D7E0C83F35E0FF2AD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E019C67B0E83362F3C00269BF74FA /* SwiftHash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B175B65FB6EFB13D34D06C4DCFA7DA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA62B4815D8F8E52BFFD4615B3E7861 /* Pods-Phonero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		474AB53343F7CBEBB948D0A315F9A5FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,19 +331,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89DC7DE136594EF7BA60342D526AAA04 /* Headers */ = {
+		93DE0E803396B824DE9F75CA3683CEC3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEEEA69AE83A8F6285878F922862C943 /* Pods-Phonero-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB324C65A08E51DDB0B2CCC57AC82A9A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD0657C302660E408A48D2757CE7E37C /* SwiftHash-umbrella.h in Headers */,
+				BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +350,38 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		097D92056C6A946F5CC9D1E673268CB9 /* Pods-Phonero */ = {
+		4C28ED1D6A37CC91FEE14BC46B339A5A /* SwiftHash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 715EFCB049113E46D741585FA094CE51 /* Build configuration list for PBXNativeTarget "Pods-Phonero" */;
+			buildConfigurationList = A75ECCB0C1A394A626B9B66202470DE5 /* Build configuration list for PBXNativeTarget "SwiftHash" */;
 			buildPhases = (
-				80F1B55E00662A18114CA73935E07A43 /* Sources */,
-				EC3A6E34B2CC04321D174DEE79952D8B /* Frameworks */,
-				89DC7DE136594EF7BA60342D526AAA04 /* Headers */,
+				30798EAFE4876CBB08FC18D0C1EED9F7 /* Sources */,
+				482E1966EA831CC8D2231DFFD11229D4 /* Frameworks */,
+				10BFEA9EF784A3D7E0C83F35E0FF2AD6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63F73A461F4B3D2E9D004AC74AE7D6DD /* PBXTargetDependency */,
 			);
-			name = "Pods-Phonero";
-			productName = "Pods-Phonero";
-			productReference = 0C001DA8EEB71E2E441018D780CA4E82 /* Pods_Phonero.framework */;
+			name = SwiftHash;
+			productName = SwiftHash;
+			productReference = 020E17C373FE25FF23FECA34328FDBE2 /* SwiftHash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA048BBEA093CDB3F69C5B36929A5AF /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				D26A24617ECAE11F29337DC26BE0E14F /* Sources */,
+				2DDC844C06D46A3907C42C9964BC7434 /* Frameworks */,
+				93DE0E803396B824DE9F75CA3683CEC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = D0578C09CC46810F9F68606CFC709113 /* KeychainAccess.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		988AEE700D4DDDFF162C825148451E20 /* Pods-PhoneroTests */ = {
@@ -321,24 +398,26 @@
 			);
 			name = "Pods-PhoneroTests";
 			productName = "Pods-PhoneroTests";
-			productReference = 441530B4F2E9A7B68F4FEE099678D313 /* Pods_PhoneroTests.framework */;
+			productReference = 932656C6D54E67DCF03BD2DEC28785AE /* Pods_PhoneroTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B3094E47BD5251B86F3463F7ECBBC838 /* SwiftHash */ = {
+		CB0A13A6CB7D441BEB01C708CD1890A3 /* Pods-Phonero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A119745EB24141676D2C9D03DAFE952 /* Build configuration list for PBXNativeTarget "SwiftHash" */;
+			buildConfigurationList = 3D5704F9059A352CA2D0227F9A4A2A8D /* Build configuration list for PBXNativeTarget "Pods-Phonero" */;
 			buildPhases = (
-				2F96C7359AE55F1B80B0EFEE26642FFF /* Sources */,
-				52774B89E647204E889418A1E787A559 /* Frameworks */,
-				DB324C65A08E51DDB0B2CCC57AC82A9A /* Headers */,
+				9E5165CF151BA55816988DA0A9903113 /* Sources */,
+				D028C4D40A38D30DD5B7FD164FD1826D /* Frameworks */,
+				1B175B65FB6EFB13D34D06C4DCFA7DA5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F852254F7289E986CDF4447F3C8AFE5E /* PBXTargetDependency */,
+				B44CB479490F5995943B0586884985AE /* PBXTargetDependency */,
 			);
-			name = SwiftHash;
-			productName = SwiftHash;
-			productReference = D74602BF64753F49C8AE0754B656E0CF /* SwiftHash.framework */;
+			name = "Pods-Phonero";
+			productName = "Pods-Phonero";
+			productReference = A513930B6D1697BC96D3B75AFD932321 /* Pods_Phonero.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0B710C0B38A88A9B57F1DC2237F088F /* Pods-PhoneroUITests */ = {
@@ -355,7 +434,7 @@
 			);
 			name = "Pods-PhoneroUITests";
 			productName = "Pods-PhoneroUITests";
-			productReference = 6C6A7681EA697FE9581A206A2DFAF350 /* Pods_PhoneroUITests.framework */;
+			productReference = 0C8EDBF3474A2B960F1CE2734F59E113 /* Pods_PhoneroUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -375,14 +454,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9596105F481EF9F7111B58A333954165 /* Products */;
+			productRefGroup = AB2500880AAFA850247C2F6A1EF4008F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				097D92056C6A946F5CC9D1E673268CB9 /* Pods-Phonero */,
+				8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */,
+				CB0A13A6CB7D441BEB01C708CD1890A3 /* Pods-Phonero */,
 				988AEE700D4DDDFF162C825148451E20 /* Pods-PhoneroTests */,
 				D0B710C0B38A88A9B57F1DC2237F088F /* Pods-PhoneroUITests */,
-				B3094E47BD5251B86F3463F7ECBBC838 /* SwiftHash */,
+				4C28ED1D6A37CC91FEE14BC46B339A5A /* SwiftHash */,
 			);
 		};
 /* End PBXProject section */
@@ -396,13 +476,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F96C7359AE55F1B80B0EFEE26642FFF /* Sources */ = {
+		30798EAFE4876CBB08FC18D0C1EED9F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D851FF05DD2424B9B36594881C37F01D /* MD5.swift in Sources */,
-				EEE62D4EDC9DDD705B137B45A189CF38 /* SHA1.swift in Sources */,
-				1E342342E7D6CE5016F249F0A4D8336B /* SwiftHash-dummy.m in Sources */,
+				009A3CE0EBB556F979D5276BCF036710 /* MD5.swift in Sources */,
+				A371F2B94092278C8E26397BCBF51E3F /* SHA1.swift in Sources */,
+				EFA6675F44E34E33CB4A5CD2623D964A /* SwiftHash-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,22 +494,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F1B55E00662A18114CA73935E07A43 /* Sources */ = {
+		9E5165CF151BA55816988DA0A9903113 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF7147D09A311209AF15C188769EAE0 /* Pods-Phonero-dummy.m in Sources */,
+				305BD67DE34D7ED5BFE15870390BD013 /* Pods-Phonero-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26A24617ECAE11F29337DC26BE0E14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */,
+				D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63F73A461F4B3D2E9D004AC74AE7D6DD /* PBXTargetDependency */ = {
+		B44CB479490F5995943B0586884985AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftHash;
-			target = B3094E47BD5251B86F3463F7ECBBC838 /* SwiftHash */;
-			targetProxy = A6F098B2979A130C20BDF79118A8F1CE /* PBXContainerItemProxy */;
+			target = 4C28ED1D6A37CC91FEE14BC46B339A5A /* SwiftHash */;
+			targetProxy = 8FCE454BABDAA504EFA1D7D56C61C011 /* PBXContainerItemProxy */;
+		};
+		F852254F7289E986CDF4447F3C8AFE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */;
+			targetProxy = D488EFE4758E754D486E7739A114FAC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,6 +560,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		38FC8ADB496641BF4EE97FF2DE25C1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6009DC996776017725F5F2995A8EA557 /* Pods-Phonero.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Phonero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phonero/Pods-Phonero.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phonero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -558,103 +687,6 @@
 			};
 			name = Debug;
 		};
-		5C75889F84F0C4D327413C3EBED4D5C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B340F6366CF0F9687C3D675D888A2A3 /* SwiftHash.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftHash/SwiftHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftHash/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftHash/SwiftHash.modulemap";
-				PRODUCT_NAME = SwiftHash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		64E9B6F278C2E838469B27D5EE4B831B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B340F6366CF0F9687C3D675D888A2A3 /* SwiftHash.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftHash/SwiftHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftHash/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftHash/SwiftHash.modulemap";
-				PRODUCT_NAME = SwiftHash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		652DDA692A14A672591787A34C84003F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF435A509E814E1198DFB56504F2BB0 /* Pods-Phonero.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Phonero/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phonero/Pods-Phonero.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phonero;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -710,9 +742,40 @@
 			};
 			name = Release;
 		};
-		BF0E43AB15D5620001D8522622AAE63A /* Release */ = {
+		9051DCFB7D87DA9EA8C56B18D53D65CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6009DC996776017725F5F2995A8EA557 /* Pods-Phonero.release.xcconfig */;
+			baseConfigurationReference = EA7CAF284716AE5E32E776B21D86F6C9 /* SwiftHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHash/SwiftHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHash/SwiftHash.modulemap";
+				PRODUCT_NAME = SwiftHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A174F1CCD86DBD7142F2C7E06FE2A957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF435A509E814E1198DFB56504F2BB0 /* Pods-Phonero.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -736,7 +799,39 @@
 				PRODUCT_NAME = Pods_Phonero;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB21F68EA9291F2AA456CD201AD88CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7CAF284716AE5E32E776B21D86F6C9 /* SwiftHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHash/SwiftHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHash/SwiftHash.modulemap";
+				PRODUCT_NAME = SwiftHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -810,6 +905,69 @@
 			};
 			name = Release;
 		};
+		FAFCDC0ABAA83BD2AD86801B22A645EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D933D233AECE929EB0BB046B71F04AD6 /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE237C240F748624F495007B041D45F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D933D233AECE929EB0BB046B71F04AD6 /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -818,6 +976,15 @@
 			buildConfigurations = (
 				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
 				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5704F9059A352CA2D0227F9A4A2A8D /* Build configuration list for PBXNativeTarget "Pods-Phonero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A174F1CCD86DBD7142F2C7E06FE2A957 /* Debug */,
+				38FC8ADB496641BF4EE97FF2DE25C1D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -831,20 +998,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		715EFCB049113E46D741585FA094CE51 /* Build configuration list for PBXNativeTarget "Pods-Phonero" */ = {
+		9FA048BBEA093CDB3F69C5B36929A5AF /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				652DDA692A14A672591787A34C84003F /* Debug */,
-				BF0E43AB15D5620001D8522622AAE63A /* Release */,
+				FE237C240F748624F495007B041D45F7 /* Debug */,
+				FAFCDC0ABAA83BD2AD86801B22A645EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A119745EB24141676D2C9D03DAFE952 /* Build configuration list for PBXNativeTarget "SwiftHash" */ = {
+		A75ECCB0C1A394A626B9B66202470DE5 /* Build configuration list for PBXNativeTarget "SwiftHash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C75889F84F0C4D327413C3EBED4D5C0 /* Debug */,
-				64E9B6F278C2E838469B27D5EE4B831B /* Release */,
+				9051DCFB7D87DA9EA8C56B18D53D65CC /* Debug */,
+				BB21F68EA9291F2AA456CD201AD88CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

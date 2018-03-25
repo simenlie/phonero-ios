@@ -27,6 +27,7 @@
 		C5A8C0D320645B4600B87447 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D220645B4600B87447 /* Logger.swift */; };
 		C5A8C0D520645BA000B87447 /* JSONDecoderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D420645BA000B87447 /* JSONDecoderHelper.swift */; };
 		C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D820645D9D00B87447 /* JSONService.swift */; };
+		C5A8C0E62067AC1C00B87447 /* KeychainAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		C5A8C0D220645B4600B87447 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		C5A8C0D420645BA000B87447 /* JSONDecoderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderHelper.swift; sourceTree = "<group>"; };
 		C5A8C0D820645D9D00B87447 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
+		C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAuthentication.swift; sourceTree = "<group>"; };
 		DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phonero/Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
 		F6AC5BEB8D335AB565EBE31C /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +159,7 @@
 		C5A8C0982064587600B87447 /* Phonero */ = {
 			isa = PBXGroup;
 			children = (
+				C5A8C0E42067AC0C00B87447 /* Authentication */,
 				C5A8C09D2064587600B87447 /* Main.storyboard */,
 				09D981002064FC2D00926C55 /* Login.storyboard */,
 				09D981022064FE4000926C55 /* LoginViewController.swift */,
@@ -201,6 +204,14 @@
 				C5A8C0D820645D9D00B87447 /* JSONService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		C5A8C0E42067AC0C00B87447 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,10 +361,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Phonero/Pods-Phonero-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +513,7 @@
 				C5A8C0D120645AE900B87447 /* RequestBuilder.swift in Sources */,
 				C5A8C0CB206458E000B87447 /* Router.swift in Sources */,
 				C5A8C09C2064587600B87447 /* ViewController.swift in Sources */,
+				C5A8C0E62067AC1C00B87447 /* KeychainAuthentication.swift in Sources */,
 				C5A8C0CD2064590100B87447 /* Request.swift in Sources */,
 				C5A8C09A2064587600B87447 /* AppDelegate.swift in Sources */,
 				C5A8C0CF20645A9000B87447 /* NetworkService.swift in Sources */,

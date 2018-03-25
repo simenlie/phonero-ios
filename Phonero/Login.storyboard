@@ -72,20 +72,13 @@
                     <connections>
                         <outlet property="passwordTextField" destination="6Rr-ki-uss" id="16Q-V9-8jM"/>
                         <outlet property="phoneNumberTextField" destination="oTe-7v-sk0" id="imb-Vz-qCN"/>
-                        <segue destination="Jcz-Gf-nJN" kind="presentation" identifier="segueToMain" id="jtd-6x-yp4"/>
+                        <segue destination="OJK-OB-JbS" kind="unwind" identifier="UnwindSegue" unwindAction="unwindLoginSegue:" id="y35-xR-fjk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mDh-5G-B4u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="OJK-OB-JbS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-7" y="-10"/>
-        </scene>
-        <!--Main-->
-        <scene sceneID="ygw-jE-Oal">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="Jcz-Gf-nJN" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vRo-BG-moJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="682" y="-11"/>
         </scene>
     </scenes>
 </document>
