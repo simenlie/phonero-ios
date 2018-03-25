@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.phoneNumberTextField.text = authentication.username
     }
 
     @IBAction func loginAction(_ sender: Any) {
@@ -42,7 +43,7 @@ class LoginViewController: UIViewController {
                             self.performSegue(withIdentifier: "UnwindSegue", sender: self)
                         case .failure(let error):
                             Logger.debug(error.localizedDescription)
-                            Alert.presentAlert(for: error, presenter: self)
+                            Alert.presentAlert(for: error, presenter: self, info: .login)
                         }
         })
     }

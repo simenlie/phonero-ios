@@ -16,8 +16,10 @@ struct UserCredentials {
 
 protocol Authentication {
     var requiresLogin: Bool { get }
+    var username: String? { get }
     var userCredentials: UserCredentials? { get }
     func store(credentials: UserCredentials)
+    func reset()
 }
 
 /// A Keychain implementation of the Authentication protocol
@@ -29,6 +31,9 @@ class KeychainAuthentication: Authentication {
         return UserCredentials(username: username, password: password)
     }
 
+    var username: String? {
+        return storedToken(key: Keys.username)
+    }
 
     private struct Keys {
         static let subscriberId = "subscriberId"
@@ -65,7 +70,7 @@ class KeychainAuthentication: Authentication {
         do {
             try keychain.removeAll()
             if let username = tempUsername {
-                self.store(credentials: UserCredentials(username: username, password: ""))
+                store(token: username, forKey: Keys.username)
             }
         }
         catch{

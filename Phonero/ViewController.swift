@@ -39,6 +39,7 @@ class ViewController: UIViewController {
     }
 
     func fetchData() {
+        print(authentication.userCredentials)
         if authentication.requiresLogin {
             self.performSegue(withIdentifier: "ShowLoginSegue", sender: self)
         } else {
