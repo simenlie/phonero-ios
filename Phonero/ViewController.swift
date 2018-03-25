@@ -68,10 +68,10 @@ class ViewController: UIViewController {
         guard let credentials = authentication.userCredentials else { return }
         backend.login(username: credentials.username, password: credentials.password, completion: { (result) in
             switch result {
-            case .success(let authe):
+            case .success:
                 completion()
             case .failure(let error):
-                print(error)
+                Alert.presentAlert(for: error, presenter: self)
             }
         })
     }

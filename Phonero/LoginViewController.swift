@@ -42,10 +42,7 @@ class LoginViewController: UIViewController {
                             self.performSegue(withIdentifier: "UnwindSegue", sender: self)
                         case .failure(let error):
                             Logger.debug(error.localizedDescription)
-                            let alert = UIAlertController(title: "Login feilet", message: nil, preferredStyle: UIAlertControllerStyle.alert)
-                            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
-                            alert.addAction(okAction)
-                            self.present(alert, animated: true, completion: nil)
+                            Alert.presentAlert(for: error, presenter: self)
                         }
         })
     }
