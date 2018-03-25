@@ -22,6 +22,30 @@ protocol Authentication {
     func reset()
 }
 
+class MockKey: Authentication {
+    var requiresLogin: Bool {
+        return false
+    }
+
+    var username: String? {
+        return nil
+    }
+
+    var userCredentials: UserCredentials? {
+        return nil
+    }
+
+    func store(credentials: UserCredentials) {
+
+    }
+
+    func reset() {
+
+    }
+
+
+}
+
 /// A Keychain implementation of the Authentication protocol
 class KeychainAuthentication: Authentication {
 
@@ -97,4 +121,5 @@ class KeychainAuthentication: Authentication {
         return nil
     }
 }
+
 

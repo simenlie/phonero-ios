@@ -18,4 +18,9 @@ pod 'SwiftHash'
     # Pods for testing
   end
 
+target 'Databruk' do
+    inherit! :search_paths
+    # Pods for testing
+end
+
 end

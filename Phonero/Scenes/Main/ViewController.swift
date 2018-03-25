@@ -26,8 +26,7 @@ class ViewController: UIViewController {
         return UIRefreshControl()
     }()
 
-    let backend = ServiceFactory().backend
-    let authentication = ServiceFactory().authentication
+    let dataWorker = DataWorker()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,7 +64,7 @@ class ViewController: UIViewController {
 
     func dataFetched(usage: Usage) {
         Logger.debug("Usage: \(usage)")
-        circularView.animateWith(progress: usage.dataUsage.progressPercent/100)
+        circularView.update(progress: usage.dataUsage.progressPercent/100)
         self.gbUsedLabel.text = "\(usage.dataUsage.formattedProgress) av"
         self.totalGbLabel.text = usage.dataUsage.formattedTotal
         self.percentageUsedLabel.text = "\(Int(round(usage.dataUsage.progressPercent))) %"
@@ -74,55 +73,17 @@ class ViewController: UIViewController {
     // MARK: Backend calls
 
     func fetchData() {
-        if authentication.requiresLogin {
-            self.performSegue(withIdentifier: "ShowLoginSegue", sender: self)
-        } else {
-            if hasCookie {
-                getDashboard()
-            } else {
-                authenticate {
-                    self.getDashboard()
-                }
-            }
-        }
-    }
-
-    func authenticate(completion: @escaping () -> Void) {
-        guard let credentials = authentication.userCredentials else { return }
-        backend.login(username: credentials.username, password: credentials.password, completion: { (result) in
-            switch result {
-            case .success:
-                completion()
-            case .failure(let error):
-                self.uiRefreshControl.endRefreshing()
-                Alert.presentAlert(for: error, presenter: self)
-            }
-        })
-    }
-
-    func getDashboard() {
-        self.backend.getUsage { (result) in
+        self.dataWorker.fetchData { (result) in
+            self.uiRefreshControl.endRefreshing()
             switch result {
             case .success(let usage):
                 self.dataFetched(usage: usage)
             case .failure(let error):
-                Logger.debug(error.localizedDescription)
-            }
-            self.uiRefreshControl.endRefreshing()
-        }
-    }
-
-    // MARK: - Helper
-
-    var hasCookie: Bool {
-        if let cookies = HTTPCookieStorage.shared.cookies {
-            for cookie in cookies {
-                if cookie.name == "BNAPI2" {
-                    return true
-                }
+                Alert.presentAlert(for: error, presenter: self)
+            case .loginRequired:
+                self.performSegue(withIdentifier: "ShowLoginSegue", sender: self)
             }
         }
-        return false
     }
 
 }

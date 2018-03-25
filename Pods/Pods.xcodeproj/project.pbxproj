@@ -8,23 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		009A3CE0EBB556F979D5276BCF036710 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8205199289B1E47896F15339215D7 /* MD5.swift */; };
+		030DA136FF15C0412107D21033CA94E8 /* Pods-Databruk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B62F2615CFBDDEA5CCC3FAE65E33AA /* Pods-Databruk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		115E7EB9C01621533932551C5CE7F086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2D5FCE1C189A19D9A60ECBC43635C2C4 /* Pods-PhoneroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B575BA1627986A6E8DD65FD360994D80 /* Pods-PhoneroUITests-dummy.m */; };
-		305BD67DE34D7ED5BFE15870390BD013 /* Pods-Phonero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94AD7C97FD40211A5E58D1B23E3FE9B /* Pods-Phonero-dummy.m */; };
+		1A6CC2062B2C2B3C3FBBF0E9A0CB7BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2D5FCE1C189A19D9A60ECBC43635C2C4 /* Pods-PhoneroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 061424B7EE4BC2281D50692B8F20FB8F /* Pods-PhoneroUITests-dummy.m */; };
+		305BD67DE34D7ED5BFE15870390BD013 /* Pods-Phonero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4CF319C539E5FABAF5470EB11668F /* Pods-Phonero-dummy.m */; };
 		654E019C67B0E83362F3C00269BF74FA /* SwiftHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D518D926C97860B773ABC6EEA927433E /* SwiftHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7956E9BE1F9FFF3D0D75AF6ED1A1891C /* Pods-PhoneroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 770A147347D8550BB226FD01EA1EA6D8 /* Pods-PhoneroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7956E9BE1F9FFF3D0D75AF6ED1A1891C /* Pods-PhoneroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25068547953090C8C3071BF0506FEA4B /* Pods-PhoneroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AB38DE5A56F794E619822DBDD585CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8FA62B4815D8F8E52BFFD4615B3E7861 /* Pods-Phonero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A042980C798DCE2EFFBAEA3A08C23636 /* Pods-Phonero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA62B4815D8F8E52BFFD4615B3E7861 /* Pods-Phonero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16D6DBD98B5FA5DD1EFC4533DD5FF94 /* Pods-Phonero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9524E12B97DB0CB02C6C732BCC541BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A371F2B94092278C8E26397BCBF51E3F /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C3F40F70BE36F0558A95D54B2393D /* SHA1.swift */; };
 		A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E431168FB58176BFC7894911CFBCE2 /* Keychain.swift */; };
 		BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47C6DAF86289E1C3DB6E517429A04E4 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C456AEBA7FACA838B8EF6CE4F7029C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D4CEDD6DCA882484C22D1370C075B17C /* Pods-PhoneroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B53907711389EE9C0DF7E116A9290 /* Pods-PhoneroTests-dummy.m */; };
+		D4CEDD6DCA882484C22D1370C075B17C /* Pods-PhoneroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB8B52D0A7AB1F43FAC6401E1824AC8 /* Pods-PhoneroTests-dummy.m */; };
 		D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBFA15C5CF1B2602295FF8F750DCB44 /* KeychainAccess-dummy.m */; };
+		EC7E179413DD10A75A24D82DDAFDD92F /* Pods-Databruk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C1FD92F5D8D94D79CBB3BD9B0B7C39 /* Pods-Databruk-dummy.m */; };
 		EFA6675F44E34E33CB4A5CD2623D964A /* SwiftHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CC8CA795B26A6C57F0E1131567059 /* SwiftHash-dummy.m */; };
 		F4C695406C9FCB8150A33D07B0B15509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FE8F977665277991131FECA98E90C8E2 /* Pods-PhoneroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FB50F1AF5FDD36468F8793158EDB5C /* Pods-PhoneroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE8F977665277991131FECA98E90C8E2 /* Pods-PhoneroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A256CB717507A4F1190FE2AC44100B89 /* Pods-PhoneroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,58 +48,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020E17C373FE25FF23FECA34328FDBE2 /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftHash.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B47204B29845347B9107A8B7B756483 /* Pods-PhoneroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroUITests-resources.sh"; sourceTree = "<group>"; };
-		0B690F2D3078EB3311AD82C74CF71B1C /* Pods-Phonero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Phonero.modulemap"; sourceTree = "<group>"; };
-		0C8EDBF3474A2B960F1CE2734F59E113 /* Pods_PhoneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroUITests.framework; path = "Pods-PhoneroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E2D2F5B5F36F24859D8761D2CAE1FC /* Pods-PhoneroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroTests.release.xcconfig"; sourceTree = "<group>"; };
-		2EE0145C836AAFC2D3357A5E750EFA82 /* Pods-PhoneroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroTests-resources.sh"; sourceTree = "<group>"; };
-		34FB50F1AF5FDD36468F8793158EDB5C /* Pods-PhoneroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneroTests-umbrella.h"; sourceTree = "<group>"; };
+		03833B67E366CA4359BCA7EECF166336 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0524C72472263A4F7E4B20EBACB25030 /* Pods-Phonero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Phonero.modulemap"; sourceTree = "<group>"; };
+		0612CD1CD97F6B24540CE983E619BC90 /* Pods-Databruk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Databruk.modulemap"; sourceTree = "<group>"; };
+		061424B7EE4BC2281D50692B8F20FB8F /* Pods-PhoneroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneroUITests-dummy.m"; sourceTree = "<group>"; };
+		10039970032B14F03AE39595BD7537CF /* Pods-PhoneroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14BE6AED140B41A6FAF7FACF21167B71 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
+		1C5EA8A458C81ADEA311603747C97212 /* Pods-PhoneroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroUITests-frameworks.sh"; sourceTree = "<group>"; };
+		229E8E92446375AF732E3232283E8B3D /* Pods-PhoneroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroTests.release.xcconfig"; sourceTree = "<group>"; };
+		25068547953090C8C3071BF0506FEA4B /* Pods-PhoneroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneroUITests-umbrella.h"; sourceTree = "<group>"; };
+		2ADD05065CB805003FAC7CF847F99B86 /* Pods-PhoneroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DC7B7E55CA6AB5E32CE72A8672DB1E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7DFEFB57F03FCF9889CA13DBEB72AF /* Pods-Databruk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Databruk-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36A8205199289B1E47896F15339215D7 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/MD5.swift; sourceTree = "<group>"; };
-		381D23AA5B95970319D58F3F62370338 /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
-		392D87E2C9D13D5754F46F1E4EB3F903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E7C3F40F70BE36F0558A95D54B2393D /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
-		4037DF09F2A987590BC5A4B28CC7C828 /* Pods-PhoneroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47C1FD92F5D8D94D79CBB3BD9B0B7C39 /* Pods-Databruk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Databruk-dummy.m"; sourceTree = "<group>"; };
 		49385DB5594F3FCF345591919683C051 /* SwiftHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHash-prefix.pch"; sourceTree = "<group>"; };
 		4B6CC8CA795B26A6C57F0E1131567059 /* SwiftHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHash-dummy.m"; sourceTree = "<group>"; };
-		6009DC996776017725F5F2995A8EA557 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
+		55A4DDE67A946BDF914A08F7EFB78CB3 /* Pods-PhoneroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroUITests-resources.sh"; sourceTree = "<group>"; };
+		590D5E3C727458D006436DF0E450B53B /* Pods-PhoneroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneroTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BB8B52D0A7AB1F43FAC6401E1824AC8 /* Pods-PhoneroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneroTests-dummy.m"; sourceTree = "<group>"; };
+		5D90BBF8EBDFF3A09F6174DFBD2A0FE4 /* Pods-PhoneroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroTests-frameworks.sh"; sourceTree = "<group>"; };
+		62FEACE8DF47A6FDAC8FAB0AD06A8F80 /* Pods_PhoneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroUITests.framework; path = "Pods-PhoneroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6403FF52EE6EC2B6B5233AD41E3F132C /* Pods-Phonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonero.debug.xcconfig"; sourceTree = "<group>"; };
 		65E431168FB58176BFC7894911CFBCE2 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A2E61006C217641D177665DF135251B /* Pods-PhoneroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroUITests-frameworks.sh"; sourceTree = "<group>"; };
-		770A147347D8550BB226FD01EA1EA6D8 /* Pods-PhoneroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneroUITests-umbrella.h"; sourceTree = "<group>"; };
-		774269740ED68F84051A8B45F7B24E46 /* Pods-PhoneroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneroTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7972D558ADE3E54115FE6697CDD4A2C1 /* Pods-PhoneroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroTests-frameworks.sh"; sourceTree = "<group>"; };
+		705BFCCB4CB27D5DBBBDCC472CFB3DCB /* Pods-Databruk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Databruk.debug.xcconfig"; sourceTree = "<group>"; };
+		772ADAF702E81CD31E14CDC93EBE57F5 /* Pods-PhoneroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhoneroTests-resources.sh"; sourceTree = "<group>"; };
 		7A4149E88A2D616DFD6078678EA0D8E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DF435A509E814E1198DFB56504F2BB0 /* Pods-Phonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phonero.debug.xcconfig"; sourceTree = "<group>"; };
+		847673E4C10951845A92565CD7A4246E /* Pods-Databruk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Databruk.release.xcconfig"; sourceTree = "<group>"; };
+		8CAEE62216D8B2FEB5BD1E55ABFDA71E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA8790D695C857F7596D3B850AA0AF5 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
-		8E5A72C8EA38E5E45F4C5F48CA443240 /* Pods-Phonero-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonero-resources.sh"; sourceTree = "<group>"; };
-		932656C6D54E67DCF03BD2DEC28785AE /* Pods_PhoneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroTests.framework; path = "Pods-PhoneroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6FAE6B3F54BE6CB3327D4D49F97C21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD669639B227D2AC88339D1969D324B /* Pods-Phonero-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phonero-acknowledgements.plist"; sourceTree = "<group>"; };
-		A042980C798DCE2EFFBAEA3A08C23636 /* Pods-Phonero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phonero-umbrella.h"; sourceTree = "<group>"; };
-		A493E89B0CCD8F3E30931CE741D042C4 /* Pods-PhoneroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A513930B6D1697BC96D3B75AFD932321 /* Pods_Phonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phonero.framework; path = "Pods-Phonero.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A605BFB4CA17233C17BC9B1ED0E9506A /* Pods-Phonero-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phonero-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A85BBC890A45DCEAB8744E5AB2DDFE31 /* Pods-Phonero-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonero-frameworks.sh"; sourceTree = "<group>"; };
-		A94AD7C97FD40211A5E58D1B23E3FE9B /* Pods-Phonero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phonero-dummy.m"; sourceTree = "<group>"; };
-		A9BE4DD69927C9028D11B3C3F7315F21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9451D31D92116460F6E846480EAFE4F8 /* Pods-PhoneroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		951686DDD21E3DA93BFE3A2F9F6D8CA9 /* Pods-PhoneroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneroUITests.modulemap"; sourceTree = "<group>"; };
+		9B2F2FDCFD2D35DE5E5C4FAD94FFC154 /* Pods-Phonero-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonero-frameworks.sh"; sourceTree = "<group>"; };
+		9D6FCBED751EB6D4463FC95913573D1C /* Pods_PhoneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhoneroTests.framework; path = "Pods-PhoneroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6E7D5B8305FBE67B8B2D48DCE800AB /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A256CB717507A4F1190FE2AC44100B89 /* Pods-PhoneroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhoneroTests-umbrella.h"; sourceTree = "<group>"; };
 		AFBFA15C5CF1B2602295FF8F750DCB44 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
-		B575BA1627986A6E8DD65FD360994D80 /* Pods-PhoneroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneroUITests-dummy.m"; sourceTree = "<group>"; };
+		BF2DECC54B82C1C72B6A59893A82AB92 /* Pods-Databruk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Databruk-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF9691BAC522E4D7629A011F4A49127E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA7B8E5497C7C132C9105174B3E29A27 /* Pods-PhoneroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneroTests.modulemap"; sourceTree = "<group>"; };
-		D0578C09CC46810F9F68606CFC709113 /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D29544F07CAAE82AA58B9A217B7F3F42 /* Pods-PhoneroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhoneroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0B62F2615CFBDDEA5CCC3FAE65E33AA /* Pods-Databruk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Databruk-umbrella.h"; sourceTree = "<group>"; };
+		C1E216E65FF3169638E5C05467BEDD89 /* Pods-Phonero-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phonero-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CECE0017F4E36FE54F4408BF20B9D649 /* Pods_Phonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phonero.framework; path = "Pods-Phonero.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECEE447D8E199934426F7DBE0BE6576 /* Pods-Databruk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Databruk-resources.sh"; sourceTree = "<group>"; };
 		D47C6DAF86289E1C3DB6E517429A04E4 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		D4F3A8E4042C0EC0A6E6812FB4A29084 /* Pods-Phonero-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phonero-resources.sh"; sourceTree = "<group>"; };
 		D518D926C97860B773ABC6EEA927433E /* SwiftHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHash-umbrella.h"; sourceTree = "<group>"; };
 		D933D233AECE929EB0BB046B71F04AD6 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
-		DDC2917096EA56B9A647505D8FC32FA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1555EF4112853B7616C349C670A2DA5 /* Pods-PhoneroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneroUITests.modulemap"; sourceTree = "<group>"; };
-		E19B53907711389EE9C0DF7E116A9290 /* Pods-PhoneroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhoneroTests-dummy.m"; sourceTree = "<group>"; };
+		DA856541C8739096C4D090B9A8E67EDF /* SwiftHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftHash.framework; path = SwiftHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC892CE1812D169AE6521E12FD5F1DC /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC45C8103E3E1B07E6DCAE4390BB166 /* Pods-PhoneroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhoneroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E16D6DBD98B5FA5DD1EFC4533DD5FF94 /* Pods-Phonero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phonero-umbrella.h"; sourceTree = "<group>"; };
 		E7B1B07596165FC6CD70E47D13C6FE6E /* SwiftHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftHash.modulemap; sourceTree = "<group>"; };
 		E80A6DCAC5985FBD7C49602D3A2A9810 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
-		EA50F227574EDA551250011849E2EC22 /* Pods-PhoneroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA7CAF284716AE5E32E776B21D86F6C9 /* SwiftHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHash.xcconfig; sourceTree = "<group>"; };
-		FF46141DDD269003DC0C602BC5FC9F67 /* Pods-PhoneroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECA738524602883E7CBBE440354E4EFE /* Pods_Databruk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Databruk.framework; path = "Pods-Databruk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F4CF319C539E5FABAF5470EB11668F /* Pods-Phonero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phonero-dummy.m"; sourceTree = "<group>"; };
+		F2B6603F48AD2A2353DDC3D87C52B3F7 /* Pods-Phonero-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phonero-acknowledgements.plist"; sourceTree = "<group>"; };
+		F53B2E6FB5EEC7F31C6E6B028CE43FC1 /* Pods-PhoneroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhoneroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F73B7DA51832C657291A6D4B5BDBBFD1 /* Pods-PhoneroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhoneroTests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +145,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B5FB6A14B38CBD54A75E802E9D7FE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6CC2062B2C2B3C3FBBF0E9A0CB7BF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D028C4D40A38D30DD5B7FD164FD1826D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,24 +164,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BEDADD3E3B1FF588DD8C4502552B4F7 /* Pods-PhoneroTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9BE4DD69927C9028D11B3C3F7315F21 /* Info.plist */,
-				CA7B8E5497C7C132C9105174B3E29A27 /* Pods-PhoneroTests.modulemap */,
-				EA50F227574EDA551250011849E2EC22 /* Pods-PhoneroTests-acknowledgements.markdown */,
-				774269740ED68F84051A8B45F7B24E46 /* Pods-PhoneroTests-acknowledgements.plist */,
-				E19B53907711389EE9C0DF7E116A9290 /* Pods-PhoneroTests-dummy.m */,
-				7972D558ADE3E54115FE6697CDD4A2C1 /* Pods-PhoneroTests-frameworks.sh */,
-				2EE0145C836AAFC2D3357A5E750EFA82 /* Pods-PhoneroTests-resources.sh */,
-				34FB50F1AF5FDD36468F8793158EDB5C /* Pods-PhoneroTests-umbrella.h */,
-				381D23AA5B95970319D58F3F62370338 /* Pods-PhoneroTests.debug.xcconfig */,
-				29E2D2F5B5F36F24859D8761D2CAE1FC /* Pods-PhoneroTests.release.xcconfig */,
-			);
-			name = "Pods-PhoneroTests";
-			path = "Target Support Files/Pods-PhoneroTests";
-			sourceTree = "<group>";
-		};
 		11380A2FFDA6FA6BF307A6B207C48BC3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +178,17 @@
 			path = "../Target Support Files/SwiftHash";
 			sourceTree = "<group>";
 		};
+		34866552DB0B0F3EB2ABD8230F0F4BBF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F05F549A723EABC291443D00CA687 /* Pods-Databruk */,
+				E44EC315BDFFA0268FEE2F4C8F5E784C /* Pods-Phonero */,
+				B2E3ED3EEA3BF76FC70F37E5851C42D1 /* Pods-PhoneroTests */,
+				600FD209190EB4A95C16EAEF9A5790BE /* Pods-PhoneroUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		405F493BF80310AC0F3A5168DE8C007D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,14 +198,49 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		600FD209190EB4A95C16EAEF9A5790BE /* Pods-PhoneroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6FAE6B3F54BE6CB3327D4D49F97C21 /* Info.plist */,
+				951686DDD21E3DA93BFE3A2F9F6D8CA9 /* Pods-PhoneroUITests.modulemap */,
+				9451D31D92116460F6E846480EAFE4F8 /* Pods-PhoneroUITests-acknowledgements.markdown */,
+				2ADD05065CB805003FAC7CF847F99B86 /* Pods-PhoneroUITests-acknowledgements.plist */,
+				061424B7EE4BC2281D50692B8F20FB8F /* Pods-PhoneroUITests-dummy.m */,
+				1C5EA8A458C81ADEA311603747C97212 /* Pods-PhoneroUITests-frameworks.sh */,
+				55A4DDE67A946BDF914A08F7EFB78CB3 /* Pods-PhoneroUITests-resources.sh */,
+				25068547953090C8C3071BF0506FEA4B /* Pods-PhoneroUITests-umbrella.h */,
+				10039970032B14F03AE39595BD7537CF /* Pods-PhoneroUITests.debug.xcconfig */,
+				DFC45C8103E3E1B07E6DCAE4390BB166 /* Pods-PhoneroUITests.release.xcconfig */,
+			);
+			name = "Pods-PhoneroUITests";
+			path = "Target Support Files/Pods-PhoneroUITests";
+			sourceTree = "<group>";
+		};
+		6E8F05F549A723EABC291443D00CA687 /* Pods-Databruk */ = {
+			isa = PBXGroup;
+			children = (
+				03833B67E366CA4359BCA7EECF166336 /* Info.plist */,
+				0612CD1CD97F6B24540CE983E619BC90 /* Pods-Databruk.modulemap */,
+				2E7DFEFB57F03FCF9889CA13DBEB72AF /* Pods-Databruk-acknowledgements.markdown */,
+				BF2DECC54B82C1C72B6A59893A82AB92 /* Pods-Databruk-acknowledgements.plist */,
+				47C1FD92F5D8D94D79CBB3BD9B0B7C39 /* Pods-Databruk-dummy.m */,
+				CECEE447D8E199934426F7DBE0BE6576 /* Pods-Databruk-resources.sh */,
+				C0B62F2615CFBDDEA5CCC3FAE65E33AA /* Pods-Databruk-umbrella.h */,
+				705BFCCB4CB27D5DBBBDCC472CFB3DCB /* Pods-Databruk.debug.xcconfig */,
+				847673E4C10951845A92565CD7A4246E /* Pods-Databruk.release.xcconfig */,
+			);
+			name = "Pods-Databruk";
+			path = "Target Support Files/Pods-Databruk";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				405F493BF80310AC0F3A5168DE8C007D /* Pods */,
-				AB2500880AAFA850247C2F6A1EF4008F /* Products */,
-				C1CDAB2C45E34B70D49187BE8A0961A6 /* Targets Support Files */,
+				DE44DFFBE027AACD1211C09CB7E13C96 /* Products */,
+				34866552DB0B0F3EB2ABD8230F0F4BBF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,34 +258,22 @@
 			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
-		85505C71D488771BA5768CA5C0A1352F /* Pods-Phonero */ = {
+		B2E3ED3EEA3BF76FC70F37E5851C42D1 /* Pods-PhoneroTests */ = {
 			isa = PBXGroup;
 			children = (
-				392D87E2C9D13D5754F46F1E4EB3F903 /* Info.plist */,
-				0B690F2D3078EB3311AD82C74CF71B1C /* Pods-Phonero.modulemap */,
-				A605BFB4CA17233C17BC9B1ED0E9506A /* Pods-Phonero-acknowledgements.markdown */,
-				9DD669639B227D2AC88339D1969D324B /* Pods-Phonero-acknowledgements.plist */,
-				A94AD7C97FD40211A5E58D1B23E3FE9B /* Pods-Phonero-dummy.m */,
-				A85BBC890A45DCEAB8744E5AB2DDFE31 /* Pods-Phonero-frameworks.sh */,
-				8E5A72C8EA38E5E45F4C5F48CA443240 /* Pods-Phonero-resources.sh */,
-				A042980C798DCE2EFFBAEA3A08C23636 /* Pods-Phonero-umbrella.h */,
-				7DF435A509E814E1198DFB56504F2BB0 /* Pods-Phonero.debug.xcconfig */,
-				6009DC996776017725F5F2995A8EA557 /* Pods-Phonero.release.xcconfig */,
+				2DC7B7E55CA6AB5E32CE72A8672DB1E9 /* Info.plist */,
+				F73B7DA51832C657291A6D4B5BDBBFD1 /* Pods-PhoneroTests.modulemap */,
+				F53B2E6FB5EEC7F31C6E6B028CE43FC1 /* Pods-PhoneroTests-acknowledgements.markdown */,
+				590D5E3C727458D006436DF0E450B53B /* Pods-PhoneroTests-acknowledgements.plist */,
+				5BB8B52D0A7AB1F43FAC6401E1824AC8 /* Pods-PhoneroTests-dummy.m */,
+				5D90BBF8EBDFF3A09F6174DFBD2A0FE4 /* Pods-PhoneroTests-frameworks.sh */,
+				772ADAF702E81CD31E14CDC93EBE57F5 /* Pods-PhoneroTests-resources.sh */,
+				A256CB717507A4F1190FE2AC44100B89 /* Pods-PhoneroTests-umbrella.h */,
+				9E6E7D5B8305FBE67B8B2D48DCE800AB /* Pods-PhoneroTests.debug.xcconfig */,
+				229E8E92446375AF732E3232283E8B3D /* Pods-PhoneroTests.release.xcconfig */,
 			);
-			name = "Pods-Phonero";
-			path = "Target Support Files/Pods-Phonero";
-			sourceTree = "<group>";
-		};
-		AB2500880AAFA850247C2F6A1EF4008F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0578C09CC46810F9F68606CFC709113 /* KeychainAccess.framework */,
-				A513930B6D1697BC96D3B75AFD932321 /* Pods_Phonero.framework */,
-				932656C6D54E67DCF03BD2DEC28785AE /* Pods_PhoneroTests.framework */,
-				0C8EDBF3474A2B960F1CE2734F59E113 /* Pods_PhoneroUITests.framework */,
-				020E17C373FE25FF23FECA34328FDBE2 /* SwiftHash.framework */,
-			);
-			name = Products;
+			name = "Pods-PhoneroTests";
+			path = "Target Support Files/Pods-PhoneroTests";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -245,16 +282,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C1CDAB2C45E34B70D49187BE8A0961A6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				85505C71D488771BA5768CA5C0A1352F /* Pods-Phonero */,
-				0BEDADD3E3B1FF588DD8C4502552B4F7 /* Pods-PhoneroTests */,
-				E06ECFEABD9265A0FD5F32E5F39A98E6 /* Pods-PhoneroUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C5664B0C4E790D9E1965B274AF0B0F56 /* SwiftHash */ = {
@@ -276,22 +303,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E06ECFEABD9265A0FD5F32E5F39A98E6 /* Pods-PhoneroUITests */ = {
+		DE44DFFBE027AACD1211C09CB7E13C96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDC2917096EA56B9A647505D8FC32FA4 /* Info.plist */,
-				E1555EF4112853B7616C349C670A2DA5 /* Pods-PhoneroUITests.modulemap */,
-				FF46141DDD269003DC0C602BC5FC9F67 /* Pods-PhoneroUITests-acknowledgements.markdown */,
-				D29544F07CAAE82AA58B9A217B7F3F42 /* Pods-PhoneroUITests-acknowledgements.plist */,
-				B575BA1627986A6E8DD65FD360994D80 /* Pods-PhoneroUITests-dummy.m */,
-				6A2E61006C217641D177665DF135251B /* Pods-PhoneroUITests-frameworks.sh */,
-				0B47204B29845347B9107A8B7B756483 /* Pods-PhoneroUITests-resources.sh */,
-				770A147347D8550BB226FD01EA1EA6D8 /* Pods-PhoneroUITests-umbrella.h */,
-				A493E89B0CCD8F3E30931CE741D042C4 /* Pods-PhoneroUITests.debug.xcconfig */,
-				4037DF09F2A987590BC5A4B28CC7C828 /* Pods-PhoneroUITests.release.xcconfig */,
+				DCC892CE1812D169AE6521E12FD5F1DC /* KeychainAccess.framework */,
+				ECA738524602883E7CBBE440354E4EFE /* Pods_Databruk.framework */,
+				CECE0017F4E36FE54F4408BF20B9D649 /* Pods_Phonero.framework */,
+				9D6FCBED751EB6D4463FC95913573D1C /* Pods_PhoneroTests.framework */,
+				62FEACE8DF47A6FDAC8FAB0AD06A8F80 /* Pods_PhoneroUITests.framework */,
+				DA856541C8739096C4D090B9A8E67EDF /* SwiftHash.framework */,
 			);
-			name = "Pods-PhoneroUITests";
-			path = "Target Support Files/Pods-PhoneroUITests";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44EC315BDFFA0268FEE2F4C8F5E784C /* Pods-Phonero */ = {
+			isa = PBXGroup;
+			children = (
+				8CAEE62216D8B2FEB5BD1E55ABFDA71E /* Info.plist */,
+				0524C72472263A4F7E4B20EBACB25030 /* Pods-Phonero.modulemap */,
+				C1E216E65FF3169638E5C05467BEDD89 /* Pods-Phonero-acknowledgements.markdown */,
+				F2B6603F48AD2A2353DDC3D87C52B3F7 /* Pods-Phonero-acknowledgements.plist */,
+				F1F4CF319C539E5FABAF5470EB11668F /* Pods-Phonero-dummy.m */,
+				9B2F2FDCFD2D35DE5E5C4FAD94FFC154 /* Pods-Phonero-frameworks.sh */,
+				D4F3A8E4042C0EC0A6E6812FB4A29084 /* Pods-Phonero-resources.sh */,
+				E16D6DBD98B5FA5DD1EFC4533DD5FF94 /* Pods-Phonero-umbrella.h */,
+				6403FF52EE6EC2B6B5233AD41E3F132C /* Pods-Phonero.debug.xcconfig */,
+				14BE6AED140B41A6FAF7FACF21167B71 /* Pods-Phonero.release.xcconfig */,
+			);
+			name = "Pods-Phonero";
+			path = "Target Support Files/Pods-Phonero";
 			sourceTree = "<group>";
 		};
 		FE28DD83615C4EC4AC66C7F48D01CF0B /* KeychainAccess */ = {
@@ -331,6 +371,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		815A9F285F977BF1E61AA1E7E704EC49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DA136FF15C0412107D21033CA94E8 /* Pods-Databruk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93DE0E803396B824DE9F75CA3683CEC3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +398,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0D7F8A664C3304AA9C278A33917D2DDE /* Pods-Databruk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D092F6A9091399818B63E0BA545D19 /* Build configuration list for PBXNativeTarget "Pods-Databruk" */;
+			buildPhases = (
+				3E5F75B4E52058DE8C29BB29EC30B328 /* Sources */,
+				4B5FB6A14B38CBD54A75E802E9D7FE86 /* Frameworks */,
+				815A9F285F977BF1E61AA1E7E704EC49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Databruk";
+			productName = "Pods-Databruk";
+			productReference = ECA738524602883E7CBBE440354E4EFE /* Pods_Databruk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4C28ED1D6A37CC91FEE14BC46B339A5A /* SwiftHash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A75ECCB0C1A394A626B9B66202470DE5 /* Build configuration list for PBXNativeTarget "SwiftHash" */;
@@ -364,7 +429,7 @@
 			);
 			name = SwiftHash;
 			productName = SwiftHash;
-			productReference = 020E17C373FE25FF23FECA34328FDBE2 /* SwiftHash.framework */;
+			productReference = DA856541C8739096C4D090B9A8E67EDF /* SwiftHash.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */ = {
@@ -381,7 +446,7 @@
 			);
 			name = KeychainAccess;
 			productName = KeychainAccess;
-			productReference = D0578C09CC46810F9F68606CFC709113 /* KeychainAccess.framework */;
+			productReference = DCC892CE1812D169AE6521E12FD5F1DC /* KeychainAccess.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		988AEE700D4DDDFF162C825148451E20 /* Pods-PhoneroTests */ = {
@@ -398,7 +463,7 @@
 			);
 			name = "Pods-PhoneroTests";
 			productName = "Pods-PhoneroTests";
-			productReference = 932656C6D54E67DCF03BD2DEC28785AE /* Pods_PhoneroTests.framework */;
+			productReference = 9D6FCBED751EB6D4463FC95913573D1C /* Pods_PhoneroTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CB0A13A6CB7D441BEB01C708CD1890A3 /* Pods-Phonero */ = {
@@ -417,7 +482,7 @@
 			);
 			name = "Pods-Phonero";
 			productName = "Pods-Phonero";
-			productReference = A513930B6D1697BC96D3B75AFD932321 /* Pods_Phonero.framework */;
+			productReference = CECE0017F4E36FE54F4408BF20B9D649 /* Pods_Phonero.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0B710C0B38A88A9B57F1DC2237F088F /* Pods-PhoneroUITests */ = {
@@ -434,7 +499,7 @@
 			);
 			name = "Pods-PhoneroUITests";
 			productName = "Pods-PhoneroUITests";
-			productReference = 0C8EDBF3474A2B960F1CE2734F59E113 /* Pods_PhoneroUITests.framework */;
+			productReference = 62FEACE8DF47A6FDAC8FAB0AD06A8F80 /* Pods_PhoneroUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -454,11 +519,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AB2500880AAFA850247C2F6A1EF4008F /* Products */;
+			productRefGroup = DE44DFFBE027AACD1211C09CB7E13C96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */,
+				0D7F8A664C3304AA9C278A33917D2DDE /* Pods-Databruk */,
 				CB0A13A6CB7D441BEB01C708CD1890A3 /* Pods-Phonero */,
 				988AEE700D4DDDFF162C825148451E20 /* Pods-PhoneroTests */,
 				D0B710C0B38A88A9B57F1DC2237F088F /* Pods-PhoneroUITests */,
@@ -483,6 +549,14 @@
 				009A3CE0EBB556F979D5276BCF036710 /* MD5.swift in Sources */,
 				A371F2B94092278C8E26397BCBF51E3F /* SHA1.swift in Sources */,
 				EFA6675F44E34E33CB4A5CD2623D964A /* SwiftHash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5F75B4E52058DE8C29BB29EC30B328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7E179413DD10A75A24D82DDAFDD92F /* Pods-Databruk-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +605,7 @@
 /* Begin XCBuildConfiguration section */
 		0DAA2B2EB2880669E07A04B7B61096F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A493E89B0CCD8F3E30931CE741D042C4 /* Pods-PhoneroUITests.debug.xcconfig */;
+			baseConfigurationReference = 10039970032B14F03AE39595BD7537CF /* Pods-PhoneroUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -561,9 +635,41 @@
 			};
 			name = Debug;
 		};
+		25074696AB19552930DE3A45EB322948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705BFCCB4CB27D5DBBBDCC472CFB3DCB /* Pods-Databruk.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Databruk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Databruk/Pods-Databruk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Databruk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		38FC8ADB496641BF4EE97FF2DE25C1D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6009DC996776017725F5F2995A8EA557 /* Pods-Phonero.release.xcconfig */;
+			baseConfigurationReference = 14BE6AED140B41A6FAF7FACF21167B71 /* Pods-Phonero.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -657,7 +763,7 @@
 		};
 		4F2FDE2A83ACAA4FE6A560A6AE3A1C9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 381D23AA5B95970319D58F3F62370338 /* Pods-PhoneroTests.debug.xcconfig */;
+			baseConfigurationReference = 9E6E7D5B8305FBE67B8B2D48DCE800AB /* Pods-PhoneroTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -775,7 +881,7 @@
 		};
 		A174F1CCD86DBD7142F2C7E06FE2A957 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DF435A509E814E1198DFB56504F2BB0 /* Pods-Phonero.debug.xcconfig */;
+			baseConfigurationReference = 6403FF52EE6EC2B6B5233AD41E3F132C /* Pods-Phonero.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -806,6 +912,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B1DADD32826C70E581EA9D5B6AC36208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847673E4C10951845A92565CD7A4246E /* Pods-Databruk.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Databruk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Databruk/Pods-Databruk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Databruk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		BB21F68EA9291F2AA456CD201AD88CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -841,7 +980,7 @@
 		};
 		BF5508879078A3B1A41ECC648F1EC469 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4037DF09F2A987590BC5A4B28CC7C828 /* Pods-PhoneroUITests.release.xcconfig */;
+			baseConfigurationReference = DFC45C8103E3E1B07E6DCAE4390BB166 /* Pods-PhoneroUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -874,7 +1013,7 @@
 		};
 		C2600BAD0B835845DB01B16908233096 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29E2D2F5B5F36F24859D8761D2CAE1FC /* Pods-PhoneroTests.release.xcconfig */;
+			baseConfigurationReference = 229E8E92446375AF732E3232283E8B3D /* Pods-PhoneroTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1003,6 +1142,15 @@
 			buildConfigurations = (
 				FE237C240F748624F495007B041D45F7 /* Debug */,
 				FAFCDC0ABAA83BD2AD86801B22A645EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D092F6A9091399818B63E0BA545D19 /* Build configuration list for PBXNativeTarget "Pods-Databruk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25074696AB19552930DE3A45EB322948 /* Debug */,
+				B1DADD32826C70E581EA9D5B6AC36208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

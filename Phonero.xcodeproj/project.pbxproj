@@ -12,6 +12,19 @@
 		09D981032064FE4000926C55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D981022064FE4000926C55 /* LoginViewController.swift */; };
 		1E937A672611AD6C4039B385 /* Pods_PhoneroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2A90776DA5BDD3AF542C2E /* Pods_PhoneroTests.framework */; };
 		568F9D1833F8B4FDFA5F6864 /* Pods_Phonero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558DE464414A223434A7E3DC /* Pods_Phonero.framework */; };
+		94D7F8FFC697C9625194506A /* Pods_Databruk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964EDB5EB3CDDED8246CF057 /* Pods_Databruk.framework */; };
+		C5A242572067D3F6006A9372 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F42067CAE200B87447 /* ServiceFactory.swift */; };
+		C5A242582067D402006A9372 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0CA206458E000B87447 /* Router.swift */; };
+		C5A242592067D402006A9372 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0CC2064590100B87447 /* Request.swift */; };
+		C5A2425A2067D402006A9372 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0CE20645A9000B87447 /* NetworkService.swift */; };
+		C5A2425B2067D402006A9372 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D020645AE900B87447 /* RequestBuilder.swift */; };
+		C5A2425C2067D402006A9372 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D220645B4600B87447 /* Logger.swift */; };
+		C5A2425D2067D402006A9372 /* JSONDecoderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D420645BA000B87447 /* JSONDecoderHelper.swift */; };
+		C5A2425E2067D402006A9372 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D820645D9D00B87447 /* JSONService.swift */; };
+		C5A2425F2067D407006A9372 /* KeychainAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */; };
+		C5A242602067D40B006A9372 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0C72064588300B87447 /* Backend.swift */; };
+		C5A242622067D4A8006A9372 /* DataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A242612067D4A8006A9372 /* DataWorker.swift */; };
+		C5A242632067D5F6006A9372 /* DataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A242612067D4A8006A9372 /* DataWorker.swift */; };
 		C5A8C09A2064587600B87447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0992064587600B87447 /* AppDelegate.swift */; };
 		C5A8C09C2064587600B87447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C09B2064587600B87447 /* ViewController.swift */; };
 		C5A8C09F2064587600B87447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A8C09D2064587600B87447 /* Main.storyboard */; };
@@ -29,11 +42,17 @@
 		C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D820645D9D00B87447 /* JSONService.swift */; };
 		C5A8C0E62067AC1C00B87447 /* KeychainAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */; };
 		C5A8C0E82067B12F00B87447 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0E72067B12F00B87447 /* Alert.swift */; };
-		C5A8C0EF2067B97200B87447 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0EE2067B97200B87447 /* Shape.swift */; };
 		C5A8C0F12067BEF500B87447 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */; };
 		C5A8C0F32067C85900B87447 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F22067C85900B87447 /* UIColor+Ext.swift */; };
 		C5A8C0F52067CAE200B87447 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F42067CAE200B87447 /* ServiceFactory.swift */; };
 		C5A8C0F72067CC7A00B87447 /* PhoneroColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F62067CC7A00B87447 /* PhoneroColor.swift */; };
+		C5A8C0FE2067CE4900B87447 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A8C0FD2067CE4900B87447 /* NotificationCenter.framework */; };
+		C5A8C1012067CE4900B87447 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C1002067CE4900B87447 /* TodayViewController.swift */; };
+		C5A8C1042067CE4900B87447 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A8C1022067CE4900B87447 /* MainInterface.storyboard */; };
+		C5A8C1082067CE4900B87447 /* Databruk.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5A8C0FC2067CE4900B87447 /* Databruk.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5A8C10D2067D10800B87447 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */; };
+		C5A8C10E2067D13200B87447 /* PhoneroColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F62067CC7A00B87447 /* PhoneroColor.swift */; };
+		C5A8C10F2067D13700B87447 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F22067C85900B87447 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,18 +70,44 @@
 			remoteGlobalIDString = C5A8C0952064587600B87447;
 			remoteInfo = Phonero;
 		};
+		C5A8C1062067CE4900B87447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A8C08E2064587600B87447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A8C0FB2067CE4900B87447;
+			remoteInfo = Databruk;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5A8C10C2067CE4900B87447 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C5A8C1082067CE4900B87447 /* Databruk.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		09D981002064FC2D00926C55 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		09D981022064FE4000926C55 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		19FDE1E6D5FADEBACDB8C25D /* Pods_PhoneroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E20EA7FA1B9DD43652CAC78 /* Pods-Databruk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Databruk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Databruk/Pods-Databruk.debug.xcconfig"; sourceTree = "<group>"; };
 		558DE464414A223434A7E3DC /* Pods_Phonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phonero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		586D5B77CE7B0AEEFB063692 /* Pods-PhoneroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroUITests/Pods-PhoneroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E952AFBE18D031DB7111ED1 /* Pods-PhoneroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests.release.xcconfig"; sourceTree = "<group>"; };
 		8638480667E0098C7EBFA9BE /* Pods-Phonero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phonero/Pods-Phonero.debug.xcconfig"; sourceTree = "<group>"; };
+		964EDB5EB3CDDED8246CF057 /* Pods_Databruk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Databruk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A335604FB9BFDE76CF5ED22D /* Pods-PhoneroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroUITests/Pods-PhoneroUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BB2A90776DA5BDD3AF542C2E /* Pods_PhoneroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A242612067D4A8006A9372 /* DataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWorker.swift; sourceTree = "<group>"; };
+		C5A242642067D75E006A9372 /* Databruk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Databruk.entitlements; sourceTree = "<group>"; };
+		C5A242652067D7A8006A9372 /* Phonero.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Phonero.entitlements; sourceTree = "<group>"; };
 		C5A8C0962064587600B87447 /* Phonero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A8C0992064587600B87447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5A8C09B2064587600B87447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,12 +131,17 @@
 		C5A8C0D820645D9D00B87447 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
 		C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAuthentication.swift; sourceTree = "<group>"; };
 		C5A8C0E72067B12F00B87447 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		C5A8C0EE2067B97200B87447 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		C5A8C0F22067C85900B87447 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		C5A8C0F42067CAE200B87447 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
 		C5A8C0F62067CC7A00B87447 /* PhoneroColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneroColor.swift; sourceTree = "<group>"; };
+		C5A8C0FC2067CE4900B87447 /* Databruk.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Databruk.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A8C0FD2067CE4900B87447 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C5A8C1002067CE4900B87447 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		C5A8C1032067CE4900B87447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C5A8C1052067CE4900B87447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phonero/Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
+		F633DEA868E27803A904E355 /* Pods-Databruk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Databruk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Databruk/Pods-Databruk.release.xcconfig"; sourceTree = "<group>"; };
 		F6AC5BEB8D335AB565EBE31C /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +170,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5A8C0F92067CE4900B87447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8C0FE2067CE4900B87447 /* NotificationCenter.framework in Frameworks */,
+				94D7F8FFC697C9625194506A /* Pods_Databruk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -132,6 +191,8 @@
 				5E952AFBE18D031DB7111ED1 /* Pods-PhoneroTests.release.xcconfig */,
 				586D5B77CE7B0AEEFB063692 /* Pods-PhoneroUITests.debug.xcconfig */,
 				A335604FB9BFDE76CF5ED22D /* Pods-PhoneroUITests.release.xcconfig */,
+				3E20EA7FA1B9DD43652CAC78 /* Pods-Databruk.debug.xcconfig */,
+				F633DEA868E27803A904E355 /* Pods-Databruk.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -142,6 +203,8 @@
 				558DE464414A223434A7E3DC /* Pods_Phonero.framework */,
 				BB2A90776DA5BDD3AF542C2E /* Pods_PhoneroTests.framework */,
 				19FDE1E6D5FADEBACDB8C25D /* Pods_PhoneroUITests.framework */,
+				C5A8C0FD2067CE4900B87447 /* NotificationCenter.framework */,
+				964EDB5EB3CDDED8246CF057 /* Pods_Databruk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +215,7 @@
 				C5A8C0982064587600B87447 /* Phonero */,
 				C5A8C0AD2064587600B87447 /* PhoneroTests */,
 				C5A8C0B82064587600B87447 /* PhoneroUITests */,
+				C5A8C0FF2067CE4900B87447 /* Databruk */,
 				C5A8C0972064587600B87447 /* Products */,
 				0743A7A0B982F4E73432E914 /* Pods */,
 				BBC53BE85CC2798C3B63814A /* Frameworks */,
@@ -164,6 +228,7 @@
 				C5A8C0962064587600B87447 /* Phonero.app */,
 				C5A8C0AA2064587600B87447 /* PhoneroTests.xctest */,
 				C5A8C0B52064587600B87447 /* PhoneroUITests.xctest */,
+				C5A8C0FC2067CE4900B87447 /* Databruk.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +236,7 @@
 		C5A8C0982064587600B87447 /* Phonero */ = {
 			isa = PBXGroup;
 			children = (
+				C5A242652067D7A8006A9372 /* Phonero.entitlements */,
 				C5A8C0E92067B67D00B87447 /* Scenes */,
 				C5A8C0EC2067B6A700B87447 /* Services */,
 				C5A8C0ED2067B6BE00B87447 /* Helpers */,
@@ -219,7 +285,6 @@
 			children = (
 				C5A8C0EA2067B68800B87447 /* Main */,
 				C5A8C0EB2067B68F00B87447 /* Login */,
-				C5A8C0EE2067B97200B87447 /* Shape.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -230,6 +295,7 @@
 				C5A8C09D2064587600B87447 /* Main.storyboard */,
 				C5A8C09B2064587600B87447 /* ViewController.swift */,
 				C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */,
+				C5A242612067D4A8006A9372 /* DataWorker.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -264,6 +330,17 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		C5A8C0FF2067CE4900B87447 /* Databruk */ = {
+			isa = PBXGroup;
+			children = (
+				C5A242642067D75E006A9372 /* Databruk.entitlements */,
+				C5A8C1002067CE4900B87447 /* TodayViewController.swift */,
+				C5A8C1022067CE4900B87447 /* MainInterface.storyboard */,
+				C5A8C1052067CE4900B87447 /* Info.plist */,
+			);
+			path = Databruk;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,10 +354,12 @@
 				C5A8C0942064587600B87447 /* Resources */,
 				004262AB1738AD2630D5CF4D /* [CP] Embed Pods Frameworks */,
 				97F1366F87DA82D542D41CA9 /* [CP] Copy Pods Resources */,
+				C5A8C10C2067CE4900B87447 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C5A8C1072067CE4900B87447 /* PBXTargetDependency */,
 			);
 			name = Phonero;
 			productName = Phonero;
@@ -329,6 +408,25 @@
 			productReference = C5A8C0B52064587600B87447 /* PhoneroUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C5A8C0FB2067CE4900B87447 /* Databruk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A8C10B2067CE4900B87447 /* Build configuration list for PBXNativeTarget "Databruk" */;
+			buildPhases = (
+				08E025B11B77B90995E1F325 /* [CP] Check Pods Manifest.lock */,
+				C5A8C0F82067CE4900B87447 /* Sources */,
+				C5A8C0F92067CE4900B87447 /* Frameworks */,
+				C5A8C0FA2067CE4900B87447 /* Resources */,
+				401A6C002A6DD1B13B827221 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Databruk;
+			productName = Databruk;
+			productReference = C5A8C0FC2067CE4900B87447 /* Databruk.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -342,6 +440,11 @@
 					C5A8C0952064587600B87447 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					C5A8C0A92064587600B87447 = {
 						CreatedOnToolsVersion = 9.2;
@@ -352,6 +455,15 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C5A8C0952064587600B87447;
+					};
+					C5A8C0FB2067CE4900B87447 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -371,6 +483,7 @@
 				C5A8C0952064587600B87447 /* Phonero */,
 				C5A8C0A92064587600B87447 /* PhoneroTests */,
 				C5A8C0B42064587600B87447 /* PhoneroUITests */,
+				C5A8C0FB2067CE4900B87447 /* Databruk */,
 			);
 		};
 /* End PBXProject section */
@@ -401,6 +514,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5A8C0FA2067CE4900B87447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A8C1042067CE4900B87447 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -422,6 +543,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phonero/Pods-Phonero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08E025B11B77B90995E1F325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Databruk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		104E7D9D64D4412A532B4B07 /* [CP] Check Pods Manifest.lock */ = {
@@ -485,6 +624,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401A6C002A6DD1B13B827221 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Databruk/Pods-Databruk-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		81F8383783309678E1F8138F /* [CP] Embed Pods Frameworks */ = {
@@ -564,7 +718,6 @@
 				C5A8C0F72067CC7A00B87447 /* PhoneroColor.swift in Sources */,
 				C5A8C0CB206458E000B87447 /* Router.swift in Sources */,
 				C5A8C09C2064587600B87447 /* ViewController.swift in Sources */,
-				C5A8C0EF2067B97200B87447 /* Shape.swift in Sources */,
 				C5A8C0E62067AC1C00B87447 /* KeychainAuthentication.swift in Sources */,
 				C5A8C0F32067C85900B87447 /* UIColor+Ext.swift in Sources */,
 				C5A8C0CD2064590100B87447 /* Request.swift in Sources */,
@@ -572,6 +725,7 @@
 				C5A8C09A2064587600B87447 /* AppDelegate.swift in Sources */,
 				C5A8C0CF20645A9000B87447 /* NetworkService.swift in Sources */,
 				C5A8C0D520645BA000B87447 /* JSONDecoderHelper.swift in Sources */,
+				C5A242622067D4A8006A9372 /* DataWorker.swift in Sources */,
 				C5A8C0C82064588300B87447 /* Backend.swift in Sources */,
 				C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */,
 				C5A8C0D320645B4600B87447 /* Logger.swift in Sources */,
@@ -597,6 +751,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5A8C0F82067CE4900B87447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A242572067D3F6006A9372 /* ServiceFactory.swift in Sources */,
+				C5A8C10D2067D10800B87447 /* CircularProgressView.swift in Sources */,
+				C5A2425A2067D402006A9372 /* NetworkService.swift in Sources */,
+				C5A2425E2067D402006A9372 /* JSONService.swift in Sources */,
+				C5A2425B2067D402006A9372 /* RequestBuilder.swift in Sources */,
+				C5A8C10F2067D13700B87447 /* UIColor+Ext.swift in Sources */,
+				C5A2425F2067D407006A9372 /* KeychainAuthentication.swift in Sources */,
+				C5A2425C2067D402006A9372 /* Logger.swift in Sources */,
+				C5A242632067D5F6006A9372 /* DataWorker.swift in Sources */,
+				C5A8C1012067CE4900B87447 /* TodayViewController.swift in Sources */,
+				C5A242592067D402006A9372 /* Request.swift in Sources */,
+				C5A2425D2067D402006A9372 /* JSONDecoderHelper.swift in Sources */,
+				C5A242582067D402006A9372 /* Router.swift in Sources */,
+				C5A242602067D40B006A9372 /* Backend.swift in Sources */,
+				C5A8C10E2067D13200B87447 /* PhoneroColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -609,6 +785,11 @@
 			isa = PBXTargetDependency;
 			target = C5A8C0952064587600B87447 /* Phonero */;
 			targetProxy = C5A8C0B62064587600B87447 /* PBXContainerItemProxy */;
+		};
+		C5A8C1072067CE4900B87447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A8C0FB2067CE4900B87447 /* Databruk */;
+			targetProxy = C5A8C1062067CE4900B87447 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -627,6 +808,14 @@
 				C5A8C0A32064587600B87447 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C5A8C1022067CE4900B87447 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A8C1032067CE4900B87447 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -743,7 +932,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8638480667E0098C7EBFA9BE /* Pods-Phonero.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Phonero/Phonero.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3J75RMARR;
 				INFOPLIST_FILE = Phonero/Info.plist;
@@ -759,7 +950,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Phonero/Phonero.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3J75RMARR;
 				INFOPLIST_FILE = Phonero/Info.plist;
@@ -841,6 +1034,40 @@
 			};
 			name = Release;
 		};
+		C5A8C1092067CE4900B87447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E20EA7FA1B9DD43652CAC78 /* Pods-Databruk.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Databruk/Databruk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = Databruk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.Phonero.Databruk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5A8C10A2067CE4900B87447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F633DEA868E27803A904E355 /* Pods-Databruk.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Databruk/Databruk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3J75RMARR;
+				INFOPLIST_FILE = Databruk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = no.liite.Phonero.Databruk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -876,6 +1103,15 @@
 			buildConfigurations = (
 				C5A8C0C52064587600B87447 /* Debug */,
 				C5A8C0C62064587600B87447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A8C10B2067CE4900B87447 /* Build configuration list for PBXNativeTarget "Databruk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A8C1092067CE4900B87447 /* Debug */,
+				C5A8C10A2067CE4900B87447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

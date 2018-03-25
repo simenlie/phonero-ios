@@ -12,14 +12,16 @@ class CircularProgressView: UIView {
 
     var shapeLayer: CAShapeLayer!
     var lineWidth: CGFloat
-
-    init(lineWidth: CGFloat) {
+    let lineBackgroundColor: UIColor
+    init(lineWidth: CGFloat, lineBackgroundColor: UIColor = PhoneroColor.progressColor) {
         self.lineWidth = lineWidth
+        self.lineBackgroundColor = lineBackgroundColor
         super.init(frame: CGRect.zero)
     }
 
     required init?(coder aDecoder: NSCoder) {
         self.lineWidth = 10
+        self.lineBackgroundColor = UIColor.white
         super.init(coder: aDecoder)
     }
 
@@ -38,7 +40,7 @@ class CircularProgressView: UIView {
                                         clockwise: true)
 
         let trackLayer = circularShapeWith(path: circularPath)
-        trackLayer.strokeColor = PhoneroColor.progressColor.cgColor
+        trackLayer.strokeColor = lineBackgroundColor.cgColor
 
         shapeLayer = circularShapeWith(path: circularPath)
         shapeLayer.strokeColor = PhoneroColor.primaryColor.cgColor
@@ -57,20 +59,24 @@ class CircularProgressView: UIView {
         return shapeLayer
     }
 
-    func animateWith(progress: Double) {
-        CATransaction.begin()
-        let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
-        basicAnimation.fromValue = shapeLayer.strokeEnd
-        basicAnimation.toValue = progress
-        print(progress)
-        basicAnimation.duration = progress * 3
-        basicAnimation.fillMode = kCAFillModeForwards
-        basicAnimation.isRemovedOnCompletion = false
-        CATransaction.setCompletionBlock {
-            self.shapeLayer.strokeEnd = CGFloat(progress)
+    func update(progress: Double, animated: Bool = true) {
+        if animated {
+            CATransaction.begin()
+            let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
+            basicAnimation.fromValue = shapeLayer.strokeEnd
+            basicAnimation.toValue = progress
+            print(progress)
+            basicAnimation.duration = progress * 3
+            basicAnimation.fillMode = kCAFillModeForwards
+            basicAnimation.isRemovedOnCompletion = false
+            CATransaction.setCompletionBlock {
+                self.shapeLayer.strokeEnd = CGFloat(progress)
+            }
+            shapeLayer.add(basicAnimation, forKey: "strokeEndAnimation")
+            CATransaction.commit()
+        } else {
+            shapeLayer.strokeEnd = CGFloat(progress)
         }
-        shapeLayer.add(basicAnimation, forKey: "strokeEndAnimation")
-        CATransaction.commit()
     }
 
 }
