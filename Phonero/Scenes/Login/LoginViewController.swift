@@ -21,6 +21,8 @@ class LoginViewController: UIViewController {
         self.phoneNumberTextField.text = authentication.username
     }
 
+   
+
     @IBAction func loginAction(_ sender: Any) {
         if let phoneNumber = phoneNumberTextField.text, let password = passwordTextField.text, (phoneNumber.count == 8 && password != "") {
             self.login(username: phoneNumber, password: password)

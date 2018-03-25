@@ -161,18 +161,13 @@
 		C5A8C0982064587600B87447 /* Phonero */ = {
 			isa = PBXGroup;
 			children = (
-				C5A8C0E42067AC0C00B87447 /* Authentication */,
-				C5A8C09D2064587600B87447 /* Main.storyboard */,
-				09D981002064FC2D00926C55 /* Login.storyboard */,
-				09D981022064FE4000926C55 /* LoginViewController.swift */,
-				C5A8C09B2064587600B87447 /* ViewController.swift */,
-				C5A8C0C72064588300B87447 /* Backend.swift */,
-				C5A8C0C9206458D800B87447 /* Networking */,
+				C5A8C0E92067B67D00B87447 /* Scenes */,
+				C5A8C0EC2067B6A700B87447 /* Services */,
+				C5A8C0ED2067B6BE00B87447 /* Helpers */,
 				C5A8C0992064587600B87447 /* AppDelegate.swift */,
 				C5A8C0A02064587600B87447 /* Assets.xcassets */,
 				C5A8C0A22064587600B87447 /* LaunchScreen.storyboard */,
 				C5A8C0A52064587600B87447 /* Info.plist */,
-				C5A8C0E72067B12F00B87447 /* Alert.swift */,
 			);
 			path = Phonero;
 			sourceTree = "<group>";
@@ -209,12 +204,49 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		C5A8C0E42067AC0C00B87447 /* Authentication */ = {
+		C5A8C0E92067B67D00B87447 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */,
+				C5A8C0EA2067B68800B87447 /* Main */,
+				C5A8C0EB2067B68F00B87447 /* Login */,
 			);
-			path = Authentication;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C5A8C0EA2067B68800B87447 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C09D2064587600B87447 /* Main.storyboard */,
+				C5A8C09B2064587600B87447 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C5A8C0EB2067B68F00B87447 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				09D981002064FC2D00926C55 /* Login.storyboard */,
+				09D981022064FE4000926C55 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C5A8C0EC2067B6A700B87447 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0C72064588300B87447 /* Backend.swift */,
+				C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */,
+				C5A8C0C9206458D800B87447 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C5A8C0ED2067B6BE00B87447 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C5A8C0E72067B12F00B87447 /* Alert.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

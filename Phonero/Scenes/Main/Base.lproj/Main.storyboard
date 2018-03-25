@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Roman</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Phonero" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfC-KG-4AB">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nbK-qX-lij" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdG-SP-Ik0">
+                                                <rect key="frame" x="136" y="246" width="102" height="57.5"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="42"/>
+                                                <color key="textColor" red="0.28454156091370564" green="0.28454156091370564" blue="0.28454156091370564" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="JdG-SP-Ik0" firstAttribute="centerX" secondItem="nbK-qX-lij" secondAttribute="centerX" id="Tw3-EI-OI8"/>
+                                            <constraint firstItem="JdG-SP-Ik0" firstAttribute="centerY" secondItem="nbK-qX-lij" secondAttribute="centerY" multiplier="0.85" id="hiW-0o-D5K"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nbK-qX-lij" firstAttribute="leading" secondItem="hfC-KG-4AB" secondAttribute="leading" id="7zF-xs-96B"/>
+                                    <constraint firstItem="nbK-qX-lij" firstAttribute="top" secondItem="hfC-KG-4AB" secondAttribute="top" id="Dtr-G8-KkG"/>
+                                    <constraint firstItem="nbK-qX-lij" firstAttribute="width" secondItem="hfC-KG-4AB" secondAttribute="width" id="UKR-S9-mvF"/>
+                                    <constraint firstAttribute="bottom" secondItem="nbK-qX-lij" secondAttribute="bottom" id="agh-Mt-5cP"/>
+                                    <constraint firstItem="nbK-qX-lij" firstAttribute="height" secondItem="hfC-KG-4AB" secondAttribute="height" priority="250" id="esx-lo-dpu"/>
+                                    <constraint firstAttribute="trailing" secondItem="nbK-qX-lij" secondAttribute="trailing" id="pmn-Hn-L28"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hfC-KG-4AB" secondAttribute="trailing" id="3Ss-6R-hHA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hfC-KG-4AB" secondAttribute="bottom" id="QUl-Rh-8Xw"/>
+                            <constraint firstItem="hfC-KG-4AB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="an7-dV-Ygg"/>
+                            <constraint firstItem="hfC-KG-4AB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="uX8-ou-MEA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="hfC-KG-4AB" id="0X0-mP-2tU"/>
+                        <outlet property="usageLabel" destination="JdG-SP-Ik0" id="1OD-wD-Xle"/>
+                        <segue destination="VPO-D0-kTs" kind="show" identifier="ShowLoginSegue" id="s3W-fz-xVN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Login-->
+        <scene sceneID="NXB-d1-Y2j">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="VPO-D0-kTs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agM-hO-vfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="663" y="363"/>
+        </scene>
+    </scenes>
+</document>

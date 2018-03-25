@@ -20,17 +20,32 @@ class ServiceFactory {
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
     let backend = ServiceFactory().backend
     let authentication = ServiceFactory().authentication
+
+    lazy var uiRefreshControl = {
+        return UIRefreshControl()
+    }()
 
     @IBOutlet weak var usageLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.usageLabel.text = "Henter data"
+        configureRefreshControl()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        fetchData()
+    }
+
+    func configureRefreshControl() {
+        uiRefreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
+        self.scrollView.addSubview(uiRefreshControl)
+    }
+
+    @objc func refresh() {
         fetchData()
     }
 
@@ -39,7 +54,6 @@ class ViewController: UIViewController {
     }
 
     func fetchData() {
-        print(authentication.userCredentials)
         if authentication.requiresLogin {
             self.performSegue(withIdentifier: "ShowLoginSegue", sender: self)
         } else {
@@ -62,6 +76,7 @@ class ViewController: UIViewController {
             case .failure(let error):
                 Logger.debug(error.localizedDescription)
             }
+            self.uiRefreshControl.endRefreshing()
         }
     }
 
@@ -72,6 +87,7 @@ class ViewController: UIViewController {
             case .success:
                 completion()
             case .failure(let error):
+                self.uiRefreshControl.endRefreshing()
                 Alert.presentAlert(for: error, presenter: self)
             }
         })
