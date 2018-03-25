@@ -8,36 +8,46 @@
 
 import UIKit
 
-class ServiceFactory {
-    var backend: Backend {
-        return Backend()
-    }
-
-    var authentication: Authentication {
-        return KeychainAuthentication(service: "no.liite.phonero")
-    }
-}
-
 class ViewController: UIViewController {
 
+    @IBOutlet weak var percentageUsedLabel: UILabel!
+    @IBOutlet weak var gbUsedLabel: UILabel!
+    @IBOutlet weak var totalGbLabel: UILabel!
     @IBOutlet weak var scrollView: UIScrollView!
-    let backend = ServiceFactory().backend
-    let authentication = ServiceFactory().authentication
+    @IBOutlet weak var dataView: UIView!
+
+    lazy var circularView: CircularProgressView = {
+        let view = CircularProgressView(lineWidth: 20)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
 
     lazy var uiRefreshControl = {
         return UIRefreshControl()
     }()
 
-    @IBOutlet weak var usageLabel: UILabel!
+    let backend = ServiceFactory().backend
+    let authentication = ServiceFactory().authentication
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.usageLabel.text = "Henter data"
         configureRefreshControl()
+        configureCiruclarView()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         fetchData()
+    }
+
+    func configureCiruclarView() {
+        dataView.addSubview(circularView)
+        NSLayoutConstraint.activate([
+            circularView.topAnchor.constraint(equalTo: dataView.topAnchor),
+            circularView.leadingAnchor.constraint(equalTo: dataView.leadingAnchor),
+            circularView.trailingAnchor.constraint(equalTo: dataView.trailingAnchor),
+            circularView.bottomAnchor.constraint(equalTo: dataView.bottomAnchor)
+            ])
     }
 
     func configureRefreshControl() {
@@ -50,8 +60,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func unwindLoginSegue(_ sender: UIStoryboardSegue) {
-       
+
     }
+
+    func dataFetched(usage: Usage) {
+        Logger.debug("Usage: \(usage)")
+        circularView.animateWith(progress: usage.dataUsage.progressPercent/100)
+        self.gbUsedLabel.text = "\(usage.dataUsage.formattedProgress) av"
+        self.totalGbLabel.text = usage.dataUsage.formattedTotal
+        self.percentageUsedLabel.text = "\(Int(round(usage.dataUsage.progressPercent))) %"
+    }
+
+    // MARK: Backend calls
 
     func fetchData() {
         if authentication.requiresLogin {
@@ -67,19 +87,6 @@ class ViewController: UIViewController {
         }
     }
 
-    func getDashboard() {
-        self.backend.getUsage { (result) in
-            switch result {
-            case .success(let usage):
-                Logger.debug("Usage: \(usage)")
-                self.usageLabel.text = "\(usage.dataUsage.formattedProgress)/\(usage.dataUsage.formattedTotal)"
-            case .failure(let error):
-                Logger.debug(error.localizedDescription)
-            }
-            self.uiRefreshControl.endRefreshing()
-        }
-    }
-
     func authenticate(completion: @escaping () -> Void) {
         guard let credentials = authentication.userCredentials else { return }
         backend.login(username: credentials.username, password: credentials.password, completion: { (result) in
@@ -92,6 +99,20 @@ class ViewController: UIViewController {
             }
         })
     }
+
+    func getDashboard() {
+        self.backend.getUsage { (result) in
+            switch result {
+            case .success(let usage):
+                self.dataFetched(usage: usage)
+            case .failure(let error):
+                Logger.debug(error.localizedDescription)
+            }
+            self.uiRefreshControl.endRefreshing()
+        }
+    }
+
+    // MARK: - Helper
 
     var hasCookie: Bool {
         if let cookies = HTTPCookieStorage.shared.cookies {

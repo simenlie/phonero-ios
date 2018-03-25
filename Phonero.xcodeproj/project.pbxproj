@@ -29,6 +29,11 @@
 		C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0D820645D9D00B87447 /* JSONService.swift */; };
 		C5A8C0E62067AC1C00B87447 /* KeychainAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */; };
 		C5A8C0E82067B12F00B87447 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0E72067B12F00B87447 /* Alert.swift */; };
+		C5A8C0EF2067B97200B87447 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0EE2067B97200B87447 /* Shape.swift */; };
+		C5A8C0F12067BEF500B87447 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */; };
+		C5A8C0F32067C85900B87447 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F22067C85900B87447 /* UIColor+Ext.swift */; };
+		C5A8C0F52067CAE200B87447 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F42067CAE200B87447 /* ServiceFactory.swift */; };
+		C5A8C0F72067CC7A00B87447 /* PhoneroColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8C0F62067CC7A00B87447 /* PhoneroColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +86,11 @@
 		C5A8C0D820645D9D00B87447 /* JSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONService.swift; sourceTree = "<group>"; };
 		C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAuthentication.swift; sourceTree = "<group>"; };
 		C5A8C0E72067B12F00B87447 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C5A8C0EE2067B97200B87447 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		C5A8C0F22067C85900B87447 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		C5A8C0F42067CAE200B87447 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
+		C5A8C0F62067CC7A00B87447 /* PhoneroColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneroColor.swift; sourceTree = "<group>"; };
 		DBACB6768E1E21E934B22A16 /* Pods-Phonero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phonero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phonero/Pods-Phonero.release.xcconfig"; sourceTree = "<group>"; };
 		F6AC5BEB8D335AB565EBE31C /* Pods-PhoneroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneroTests/Pods-PhoneroTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,6 +219,7 @@
 			children = (
 				C5A8C0EA2067B68800B87447 /* Main */,
 				C5A8C0EB2067B68F00B87447 /* Login */,
+				C5A8C0EE2067B97200B87447 /* Shape.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -218,6 +229,7 @@
 			children = (
 				C5A8C09D2064587600B87447 /* Main.storyboard */,
 				C5A8C09B2064587600B87447 /* ViewController.swift */,
+				C5A8C0F02067BEF500B87447 /* CircularProgressView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -234,6 +246,7 @@
 		C5A8C0EC2067B6A700B87447 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C5A8C0F42067CAE200B87447 /* ServiceFactory.swift */,
 				C5A8C0C72064588300B87447 /* Backend.swift */,
 				C5A8C0E52067AC1C00B87447 /* KeychainAuthentication.swift */,
 				C5A8C0C9206458D800B87447 /* Networking */,
@@ -245,6 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				C5A8C0E72067B12F00B87447 /* Alert.swift */,
+				C5A8C0F22067C85900B87447 /* UIColor+Ext.swift */,
+				C5A8C0F62067CC7A00B87447 /* PhoneroColor.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -546,9 +561,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A8C0D120645AE900B87447 /* RequestBuilder.swift in Sources */,
+				C5A8C0F72067CC7A00B87447 /* PhoneroColor.swift in Sources */,
 				C5A8C0CB206458E000B87447 /* Router.swift in Sources */,
 				C5A8C09C2064587600B87447 /* ViewController.swift in Sources */,
+				C5A8C0EF2067B97200B87447 /* Shape.swift in Sources */,
 				C5A8C0E62067AC1C00B87447 /* KeychainAuthentication.swift in Sources */,
+				C5A8C0F32067C85900B87447 /* UIColor+Ext.swift in Sources */,
 				C5A8C0CD2064590100B87447 /* Request.swift in Sources */,
 				C5A8C0E82067B12F00B87447 /* Alert.swift in Sources */,
 				C5A8C09A2064587600B87447 /* AppDelegate.swift in Sources */,
@@ -557,6 +575,8 @@
 				C5A8C0C82064588300B87447 /* Backend.swift in Sources */,
 				C5A8C0D920645D9D00B87447 /* JSONService.swift in Sources */,
 				C5A8C0D320645B4600B87447 /* Logger.swift in Sources */,
+				C5A8C0F52067CAE200B87447 /* ServiceFactory.swift in Sources */,
+				C5A8C0F12067BEF500B87447 /* CircularProgressView.swift in Sources */,
 				09D981032064FE4000926C55 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
